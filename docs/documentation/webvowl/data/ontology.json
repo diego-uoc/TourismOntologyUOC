@@ -1,0 +1,1681 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://dbpedia.org/resource", "http://www.w3.org/2001/XMLSchema", "https://uoc.edu/tourismOntology" ],
+    "title" : {
+      "en" : "Tourism recommendations ontology"
+    },
+    "iri" : "https://uoc.edu/tourismOntology#",
+    "version" : "1.0.0",
+    "author" : [ "Diego Villar Alcalá" ],
+    "description" : {
+      "en" : "This is an ontology that is design to give information based on the characteristics of different cities"
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Diego Villar Alcalá",
+        "type" : "label"
+      } ],
+      "createdWith" : [ {
+        "identifier" : "createdWith",
+        "language" : "undefined",
+        "value" : "https://chowlk.linkeddata.es/",
+        "type" : "iri"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2025-04-20",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "tro",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://uoc.edu/tourismOntology#",
+        "type" : "iri"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Tourism recommendations ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://uoc.edu/tourismOntology#AttractionType",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AttractionType",
+      "undefined" : "Attraction Type"
+    },
+    "individuals" : [ {
+      "iri" : "https://uoc.edu/tourismOntology#CulturalAttraction",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "CulturalAttraction"
+      },
+      "labels" : {
+        "IRI-based" : "CulturalAttraction",
+        "undefined" : "CulturalAttraction"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Museum",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Museum"
+      },
+      "labels" : {
+        "IRI-based" : "Museum",
+        "undefined" : "Museum"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Park",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Park"
+      },
+      "labels" : {
+        "IRI-based" : "Park",
+        "undefined" : "Park"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#BeachAttraction",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "BeachAttraction"
+      },
+      "labels" : {
+        "IRI-based" : "BeachAttraction",
+        "undefined" : "BeachAttraction"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Monument",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Monument"
+      },
+      "labels" : {
+        "IRI-based" : "Monument",
+        "undefined" : "Monument"
+      }
+    } ],
+    "comment" : {
+      "en" : "a place which draws visitors by providing something of interest or pleasure."
+    },
+    "id" : "0"
+  }, {
+    "iri" : "http://dbpedia.org/resource/Transport",
+    "baseIri" : "http://dbpedia.org/resource",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport",
+      "undefined" : "Transport"
+    },
+    "subClasses" : [ "2" ],
+    "comment" : {
+      "undefined" : "A transport"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#Event",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event",
+      "undefined" : "Event"
+    },
+    "individuals" : [ {
+      "iri" : "https://uoc.edu/tourismOntology#Event52",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Event52"
+      },
+      "labels" : {
+        "IRI-based" : "Event52",
+        "undefined" : "Event52"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Event65",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Event65"
+      },
+      "labels" : {
+        "IRI-based" : "Event65",
+        "undefined" : "Event65"
+      }
+    } ],
+    "comment" : {
+      "en" : "a planned public or social occasion"
+    },
+    "id" : "3"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#EventType",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EventType",
+      "undefined" : "Event Type"
+    },
+    "individuals" : [ {
+      "iri" : "https://uoc.edu/tourismOntology#Technological",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Technological"
+      },
+      "labels" : {
+        "IRI-based" : "Technological",
+        "undefined" : "Technological"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Sports",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Sports"
+      },
+      "labels" : {
+        "IRI-based" : "Sports",
+        "undefined" : "Sports"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#CulturalEvent",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "CulturalEvent"
+      },
+      "labels" : {
+        "IRI-based" : "CulturalEvent",
+        "undefined" : "CulturalEvent"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Gastronomic",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Gastronomic"
+      },
+      "labels" : {
+        "IRI-based" : "Gastronomic",
+        "undefined" : "Gastronomic"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Music",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Music"
+      },
+      "labels" : {
+        "IRI-based" : "Music",
+        "undefined" : "Music"
+      }
+    } ],
+    "comment" : {
+      "en" : "The type of event"
+    },
+    "id" : "7"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#Hotel",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hotel",
+      "undefined" : "Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "https://uoc.edu/tourismOntology#Hotel9",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Hotel9"
+      },
+      "labels" : {
+        "IRI-based" : "Hotel9",
+        "undefined" : "Hotel9"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Hotel23",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Hotel23"
+      },
+      "labels" : {
+        "IRI-based" : "Hotel23",
+        "undefined" : "Hotel23"
+      }
+    } ],
+    "comment" : {
+      "en" : "an establishment providing accommodation, meals, and other services for travellers and tourists."
+    },
+    "id" : "15",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#City",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City",
+      "undefined" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "http://dbpedia.org/resource#Toledo",
+      "baseIri" : "http://dbpedia.org/resource",
+      "comment" : {
+        "undefined" : "Toledo"
+      },
+      "labels" : {
+        "IRI-based" : "Toledo",
+        "undefined" : "Toledo"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Barcelona",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Barcelona"
+      },
+      "labels" : {
+        "IRI-based" : "Barcelona",
+        "undefined" : "Barcelona"
+      }
+    } ],
+    "comment" : {
+      "en" : "A place where many people live"
+    },
+    "id" : "12",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://dbpedia.org/resource/Hotel",
+    "baseIri" : "http://dbpedia.org/resource",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hotel",
+      "undefined" : "Hotel"
+    },
+    "subClasses" : [ "15" ],
+    "comment" : {
+      "undefined" : "A hotel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#Company",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Company",
+      "undefined" : "Company"
+    },
+    "individuals" : [ {
+      "iri" : "https://uoc.edu/tourismOntology#CompanyMetroBarcelona",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "CompanyMetroBarcelona"
+      },
+      "labels" : {
+        "IRI-based" : "CompanyMetroBarcelona",
+        "undefined" : "CompanyMetroBarcelona"
+      }
+    } ],
+    "comment" : {
+      "en" : "a commercial business."
+    },
+    "id" : "34"
+  }, {
+    "iri" : "http://dbpedia.org/resource/Travel_agency",
+    "baseIri" : "http://dbpedia.org/resource",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Travel_agency",
+      "undefined" : "Travel_agency"
+    },
+    "subClasses" : [ "39" ],
+    "comment" : {
+      "undefined" : "A Travel agency"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#HotelType",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HotelType",
+      "undefined" : "Hotel Type"
+    },
+    "individuals" : [ {
+      "iri" : "https://uoc.edu/tourismOntology#Touristic",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Touristic"
+      },
+      "labels" : {
+        "IRI-based" : "Touristic",
+        "undefined" : "Touristic"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Business",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Business"
+      },
+      "labels" : {
+        "IRI-based" : "Business",
+        "undefined" : "Business"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Luxury",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Luxury"
+      },
+      "labels" : {
+        "IRI-based" : "Luxury",
+        "undefined" : "Luxury"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Rural",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Rural"
+      },
+      "labels" : {
+        "IRI-based" : "Rural",
+        "undefined" : "Rural"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#BeachHotel",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "BeachHotel"
+      },
+      "labels" : {
+        "IRI-based" : "BeachHotel",
+        "undefined" : "BeachHotel"
+      }
+    } ],
+    "comment" : {
+      "en" : "The type of hotel"
+    },
+    "id" : "44"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "23",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#TravelAgency",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TravelAgency",
+      "undefined" : "Travel Agency"
+    },
+    "individuals" : [ {
+      "iri" : "https://uoc.edu/tourismOntology#TravelAgency2",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "TravelAgency2"
+      },
+      "labels" : {
+        "IRI-based" : "TravelAgency2",
+        "undefined" : "TravelAgency2"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#TravelAgency1",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "TravelAgency1"
+      },
+      "labels" : {
+        "IRI-based" : "TravelAgency1",
+        "undefined" : "TravelAgency1"
+      }
+    } ],
+    "comment" : {
+      "en" : "a company or shop that makes travel arrangements for people. Tourism & holidays."
+    },
+    "id" : "39",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://dbpedia.org/resource/City",
+    "baseIri" : "http://dbpedia.org/resource",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City",
+      "undefined" : "City"
+    },
+    "subClasses" : [ "12" ],
+    "comment" : {
+      "undefined" : "A city"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "64",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#Restaurant",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "undefined" : "Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "https://uoc.edu/tourismOntology#Restaurant50",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Restaurant50"
+      },
+      "labels" : {
+        "IRI-based" : "Restaurant50",
+        "undefined" : "Restaurant50"
+      }
+    } ],
+    "comment" : {
+      "en" : "a place where people pay to sit and eat meals that are cooked and served on the premises."
+    },
+    "id" : "9",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#Location",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location",
+      "undefined" : "Location"
+    },
+    "individuals" : [ {
+      "iri" : "http://dbpedia.org/resource#Location1",
+      "baseIri" : "http://dbpedia.org/resource",
+      "comment" : {
+        "undefined" : "Location1"
+      },
+      "labels" : {
+        "IRI-based" : "Location1",
+        "undefined" : "Location1"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Location2",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Location2"
+      },
+      "labels" : {
+        "IRI-based" : "Location2",
+        "undefined" : "Location2"
+      }
+    } ],
+    "comment" : {
+      "en" : "a particular place or position."
+    },
+    "id" : "5"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#Transport",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport",
+      "undefined" : "Transport"
+    },
+    "individuals" : [ {
+      "iri" : "https://uoc.edu/tourismOntology#Transport9",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Transport9"
+      },
+      "labels" : {
+        "IRI-based" : "Transport9",
+        "undefined" : "Transport9"
+      }
+    } ],
+    "comment" : {
+      "en" : "a system or means of conveying people or goods from place to place."
+    },
+    "id" : "2",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#CulturalCity",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalCity",
+      "undefined" : "Cultural city"
+    },
+    "comment" : {
+      "en" : "A cultural touristic city"
+    },
+    "id" : "31",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://dbpedia.org/resource/Restaurant",
+    "baseIri" : "http://dbpedia.org/resource",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "undefined" : "Restaurant"
+    },
+    "subClasses" : [ "9" ],
+    "comment" : {
+      "undefined" : "A restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#GastronomicCity",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GastronomicCity",
+      "undefined" : "Gastronomic city"
+    },
+    "comment" : {
+      "en" : "A traditional gastronomic touristic city"
+    },
+    "id" : "26",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#FoodType",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FoodType",
+      "undefined" : "Food Type"
+    },
+    "individuals" : [ {
+      "iri" : "https://uoc.edu/tourismOntology#Italian",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Italian"
+      },
+      "labels" : {
+        "IRI-based" : "Italian",
+        "undefined" : "Italian"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Mexican",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Mexican"
+      },
+      "labels" : {
+        "IRI-based" : "Mexican",
+        "undefined" : "Mexican"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Mediterranean",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Mediterranean"
+      },
+      "labels" : {
+        "IRI-based" : "Mediterranean",
+        "undefined" : "Mediterranean"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Japanese",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Japanese"
+      },
+      "labels" : {
+        "IRI-based" : "Japanese",
+        "undefined" : "Japanese"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Andalusian",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Andalusian"
+      },
+      "labels" : {
+        "IRI-based" : "Andalusian",
+        "undefined" : "Andalusian"
+      }
+    } ],
+    "comment" : {
+      "en" : "The type of food"
+    },
+    "id" : "10"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#Recommendation",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recommendation",
+      "undefined" : "Recommendation"
+    },
+    "subClasses" : [ "26", "33", "31" ],
+    "comment" : {
+      "en" : "a suggestion or proposal as to the best course of action, especially one put forward by an authoritative body."
+    },
+    "id" : "27"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#Attraction",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attraction",
+      "undefined" : "Attraction"
+    },
+    "individuals" : [ {
+      "iri" : "https://uoc.edu/tourismOntology#Attraction56",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Attraction56"
+      },
+      "labels" : {
+        "IRI-based" : "Attraction56",
+        "undefined" : "Attraction56"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Attraction20",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Attraction20"
+      },
+      "labels" : {
+        "IRI-based" : "Attraction20",
+        "undefined" : "Attraction20"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "a place which draws visitors by providing something of interest or pleasure."
+    },
+    "id" : "13",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#TransportType",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TransportType",
+      "undefined" : "Transport Type"
+    },
+    "individuals" : [ {
+      "iri" : "https://uoc.edu/tourismOntology#Taxi",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Taxi"
+      },
+      "labels" : {
+        "IRI-based" : "Taxi",
+        "undefined" : "Taxi"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Subway",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Subway"
+      },
+      "labels" : {
+        "IRI-based" : "Subway",
+        "undefined" : "Subway"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Bus",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Bus"
+      },
+      "labels" : {
+        "IRI-based" : "Bus",
+        "undefined" : "Bus"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Tram",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Tram"
+      },
+      "labels" : {
+        "IRI-based" : "Tram",
+        "undefined" : "Tram"
+      }
+    }, {
+      "iri" : "https://uoc.edu/tourismOntology#Bicicle",
+      "baseIri" : "https://uoc.edu/tourismOntology",
+      "comment" : {
+        "undefined" : "Bicicle"
+      },
+      "labels" : {
+        "IRI-based" : "Bicicle",
+        "undefined" : "Bicicle"
+      }
+    } ],
+    "comment" : {
+      "en" : "The type of transport"
+    },
+    "id" : "18"
+  }, {
+    "iri" : "http://dbpedia.org/resource/Tourist_attraction",
+    "baseIri" : "http://dbpedia.org/resource",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tourist_attraction",
+      "undefined" : "Tourist_attraction"
+    },
+    "subClasses" : [ "13" ],
+    "comment" : {
+      "undefined" : "A tourist attraction"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#BeachCity",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeachCity",
+      "undefined" : "Beach city"
+    },
+    "comment" : {
+      "en" : "A touristic city by the beach"
+    },
+    "id" : "33",
+    "superClasses" : [ "27" ]
+  } ],
+  "property" : [ {
+    "id" : "4",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "72",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "73",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://uoc.edu/tourismOntology#longitude",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "longitude",
+      "undefined" : "longitude:"
+    },
+    "cardinality" : "1",
+    "domain" : "5",
+    "comment" : {
+      "en" : "The longitude of the location"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasFoodType",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasFoodType",
+      "undefined" : "has food type"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "A property that relates a Restaurant to a Food Type"
+    },
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasAttraction",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasAttraction",
+      "undefined" : "has attraction"
+    },
+    "domain" : "12",
+    "comment" : {
+      "en" : "A property that relates a City to an Attrraction"
+    },
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasRestaurant",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasRestaurant",
+      "undefined" : "has restaurant"
+    },
+    "domain" : "12",
+    "comment" : {
+      "en" : "A property that relates a City to a Restaurant"
+    },
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasTransportType",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasTransportType",
+      "undefined" : "has transport type"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "A property that relates a Transport to a Transport type"
+    },
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "range" : "21",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#rating",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "rating",
+      "undefined" : "rating:"
+    },
+    "cardinality" : "1",
+    "domain" : "23",
+    "comment" : {
+      "en" : "The rating of that individual"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "22"
+  }, {
+    "range" : "27",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "25"
+  }, {
+    "range" : "29",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "27",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "27",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "19",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  }, {
+    "range" : "40",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#cityID",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "cityID",
+      "undefined" : "city i d:"
+    },
+    "cardinality" : "1",
+    "domain" : "12",
+    "comment" : {
+      "en" : "The id of the city"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "41"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasHotelType",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "hasHotelType",
+      "undefined" : "has hotel type"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "A property that relates a Hotel to a Hotel type"
+    },
+    "attributes" : [ "object" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasEventType",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasEventType",
+      "undefined" : "has event type"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "A property that relates an Event to an Event type"
+    },
+    "attributes" : [ "object" ],
+    "id" : "45"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#telephone",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "telephone",
+      "undefined" : "telephone:"
+    },
+    "cardinality" : "1",
+    "domain" : "39",
+    "comment" : {
+      "en" : "The telephone number of the agency"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#averageCost",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "averageCost",
+      "undefined" : "average cost:"
+    },
+    "cardinality" : "1",
+    "domain" : "2",
+    "comment" : {
+      "en" : "The average cost of the transport"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "48"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#restaurantID",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "restaurantID",
+      "undefined" : "restaurant i d:"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "The id of the restaurant"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasEvent",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasEvent",
+      "undefined" : "has event"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "A property that relates a City to an Event"
+    },
+    "attributes" : [ "object" ],
+    "id" : "52"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasLocation",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasLocation",
+      "undefined" : "has location"
+    },
+    "cardinality" : "1",
+    "domain" : "12",
+    "comment" : {
+      "en" : "A property that relates a City to a Location"
+    },
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasAgency",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasAgency",
+      "undefined" : "has agency"
+    },
+    "domain" : "12",
+    "comment" : {
+      "en" : "A property that relates a City to an Agency"
+    },
+    "attributes" : [ "object" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#latitude",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "latitude",
+      "undefined" : "latitude:"
+    },
+    "cardinality" : "1",
+    "domain" : "5",
+    "comment" : {
+      "en" : "The latitude of the location"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasCompany",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "hasCompany",
+      "undefined" : "has company"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "A property that relates a Transport to a Company"
+    },
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#eventID",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "eventID",
+      "undefined" : "event i d:"
+    },
+    "cardinality" : "1",
+    "domain" : "3",
+    "comment" : {
+      "en" : "The id of the event"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasTransport",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasTransport",
+      "undefined" : "has transport"
+    },
+    "domain" : "12",
+    "comment" : {
+      "en" : "A property that relates a City to a Transport"
+    },
+    "attributes" : [ "object" ],
+    "id" : "69"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#attractionID",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "attractionID",
+      "undefined" : "attraction i d:"
+    },
+    "cardinality" : "1",
+    "domain" : "13",
+    "comment" : {
+      "en" : "The id of the attraction"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasAgency",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasAgency",
+      "undefined" : "has agency"
+    },
+    "domain" : "12",
+    "comment" : {
+      "en" : "A property that relates a City to an Agency"
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasHotel",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasHotel",
+      "undefined" : "has hotel"
+    },
+    "domain" : "12",
+    "comment" : {
+      "en" : "A property that relates a City to a Hotel"
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasAttractionType",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "hasAttractionType",
+      "undefined" : "has attraction type"
+    },
+    "domain" : "13",
+    "comment" : {
+      "en" : "A property that relates an Attraction to an Attraction type"
+    },
+    "attributes" : [ "object" ],
+    "id" : "73"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasPriceNight",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "hasPriceNight",
+      "undefined" : "has price night:"
+    },
+    "cardinality" : "1",
+    "domain" : "15",
+    "comment" : {
+      "en" : "The price per night of the hotel"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "74"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#name",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "name",
+      "undefined" : "name:"
+    },
+    "cardinality" : "1",
+    "domain" : "23",
+    "comment" : {
+      "en" : "The name of the individual"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#averagePrice",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "averagePrice",
+      "undefined" : "average price:"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "The average price of the restaurant"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "76"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#transportID",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "transportID",
+      "undefined" : "transport i d:"
+    },
+    "cardinality" : "1",
+    "domain" : "2",
+    "comment" : {
+      "en" : "The id of the transport"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#agencyID",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "agencyID",
+      "undefined" : "agency i d:"
+    },
+    "cardinality" : "1",
+    "domain" : "39",
+    "comment" : {
+      "en" : "The id of the agency"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#stars",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "stars",
+      "undefined" : "stars:"
+    },
+    "cardinality" : "1",
+    "domain" : "15",
+    "comment" : {
+      "en" : "The stars of the hotel"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasDate",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "hasDate",
+      "undefined" : "has date:"
+    },
+    "cardinality" : "1",
+    "domain" : "3",
+    "comment" : {
+      "en" : "The date of the event"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hotelID",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "hotelID",
+      "undefined" : "hotel i d:"
+    },
+    "cardinality" : "1",
+    "domain" : "15",
+    "comment" : {
+      "en" : "The hotel id"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://uoc.edu/tourismOntology#hasHotel",
+    "baseIri" : "https://uoc.edu/tourismOntology",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasHotel",
+      "undefined" : "has hotel"
+    },
+    "domain" : "12",
+    "comment" : {
+      "en" : "A property that relates a City to a Hotel"
+    },
+    "attributes" : [ "object" ],
+    "id" : "82"
+  } ]
+}

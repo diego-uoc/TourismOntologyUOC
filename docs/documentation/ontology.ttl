@@ -1,0 +1,1165 @@
+@prefix : <https://uoc.edu/tourismOntology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://uoc.edu/tourismOntology#> .
+
+<https://uoc.edu/tourismOntology#> rdf:type owl:Ontology ;
+                                    owl:versionIRI <https://uoc.edu/tourismOntology/1.0.0> ;
+                                    <http://purl.org/dc/elements/1.1/created> "2025-04-20"^^xsd:date ;
+                                    <http://purl.org/dc/elements/1.1/creator> "Diego Villar Alcalá" ;
+                                    <http://purl.org/dc/elements/1.1/description> "This is an ontology that is design to give information based on the characteristics of different cities"@en ;
+                                    <http://purl.org/dc/elements/1.1/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                    <http://purl.org/dc/elements/1.1/title> "Tourism recommendations ontology"@en ;
+                                    <http://purl.org/vocab/vann/preferredNamespacePrefix> "tro" ;
+                                    <http://purl.org/vocab/vann/preferredNamespaceUri> <https://uoc.edu/tourismOntology#> ;
+                                    owl:versionInfo "1.0.0" ;
+                                    <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/created
+<http://purl.org/dc/elements/1.1/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#versionIRI
+owl:versionIRI rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#versionInfo
+owl:versionInfo rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://uoc.edu/tourismOntology#hasAgency
+:hasAgency rdf:type owl:ObjectProperty ;
+           rdfs:domain :City ;
+           rdfs:range :TravelAgency ;
+           rdfs:comment "A property that relates a City to an Agency"@en ;
+           rdfs:label "has agency" .
+
+
+###  https://uoc.edu/tourismOntology#hasAttraction
+:hasAttraction rdf:type owl:ObjectProperty ;
+               rdfs:domain :City ;
+               rdfs:range :Attraction ;
+               rdfs:comment "A property that relates a City to an Attrraction"@en ;
+               rdfs:label "has attraction" .
+
+
+###  https://uoc.edu/tourismOntology#hasAttractionType
+:hasAttractionType rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Attraction ;
+                   rdfs:range :AttractionType ;
+                   rdfs:comment "A property that relates an Attraction to an Attraction type"@en ;
+                   rdfs:label "has attraction type" .
+
+
+###  https://uoc.edu/tourismOntology#hasCompany
+:hasCompany rdf:type owl:ObjectProperty ;
+            rdfs:domain :Transport ;
+            rdfs:range :Company ;
+            rdfs:comment "A property that relates a Transport to a Company"@en ;
+            rdfs:label "has company" .
+
+
+###  https://uoc.edu/tourismOntology#hasEvent
+:hasEvent rdf:type owl:ObjectProperty ;
+          rdfs:domain :City ;
+          rdfs:range :Event ;
+          rdfs:comment "A property that relates a City to an Event" ;
+          rdfs:label "has event" .
+
+
+###  https://uoc.edu/tourismOntology#hasEventType
+:hasEventType rdf:type owl:ObjectProperty ;
+              rdfs:domain :Event ;
+              rdfs:range :EventType ;
+              rdfs:comment "A property that relates an Event to an Event type" ;
+              rdfs:label "has event type" .
+
+
+###  https://uoc.edu/tourismOntology#hasFoodType
+:hasFoodType rdf:type owl:ObjectProperty ;
+             rdfs:domain :Restaurant ;
+             rdfs:range :FoodType ;
+             rdfs:comment "A property that relates a Restaurant to a Food Type"@en ;
+             rdfs:label "has food type" .
+
+
+###  https://uoc.edu/tourismOntology#hasHotel
+:hasHotel rdf:type owl:ObjectProperty ;
+          rdfs:domain :City ;
+          rdfs:range :Hotel ;
+          rdfs:comment "A property that relates a City to a Hotel"@en ;
+          rdfs:label "has hotel" .
+
+
+###  https://uoc.edu/tourismOntology#hasHotelType
+:hasHotelType rdf:type owl:ObjectProperty ;
+              rdfs:domain :Hotel ;
+              rdfs:range :HotelType ;
+              rdfs:comment "A property that relates a Hotel to a Hotel type"@en ;
+              rdfs:label "has hotel type" .
+
+
+###  https://uoc.edu/tourismOntology#hasLocation
+:hasLocation rdf:type owl:ObjectProperty ;
+             rdfs:domain :City ;
+             rdfs:range :Location ;
+             rdfs:comment "A property that relates a City to a Location"@en ;
+             rdfs:label "has location" .
+
+
+###  https://uoc.edu/tourismOntology#hasRestaurant
+:hasRestaurant rdf:type owl:ObjectProperty ;
+               rdfs:domain :City ;
+               rdfs:range :Restaurant ;
+               rdfs:comment "A property that relates a City to a Restaurant"@en ;
+               rdfs:label "has restaurant" .
+
+
+###  https://uoc.edu/tourismOntology#hasTransport
+:hasTransport rdf:type owl:ObjectProperty ;
+              rdfs:domain :City ;
+              rdfs:range :Transport ;
+              rdfs:comment "A property that relates a City to a Transport"@en ;
+              rdfs:label "has transport" .
+
+
+###  https://uoc.edu/tourismOntology#hasTransportType
+:hasTransportType rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Transport ;
+                  rdfs:range :TransportType ;
+                  rdfs:comment "A property that relates a Transport to a Transport type"@en ;
+                  rdfs:label "has transport type" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://uoc.edu/tourismOntology#agencyID
+:agencyID rdf:type owl:DatatypeProperty ;
+          rdfs:domain :TravelAgency ;
+          rdfs:range xsd:integer ;
+          rdfs:comment "The id of the agency"@en ;
+          rdfs:label "agency i d:" .
+
+
+###  https://uoc.edu/tourismOntology#attractionID
+:attractionID rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Attraction ;
+              rdfs:range xsd:integer ;
+              rdfs:comment "The id of the attraction"@en ;
+              rdfs:label "attraction i d:" .
+
+
+###  https://uoc.edu/tourismOntology#averageCost
+:averageCost rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Transport ;
+             rdfs:range xsd:double ;
+             rdfs:comment "The average cost of the transport"@en ;
+             rdfs:label "average cost:" .
+
+
+###  https://uoc.edu/tourismOntology#averagePrice
+:averagePrice rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Restaurant ;
+              rdfs:range xsd:integer ;
+              rdfs:comment "The average price of the restaurant"@en ;
+              rdfs:label "average price:" .
+
+
+###  https://uoc.edu/tourismOntology#cityID
+:cityID rdf:type owl:DatatypeProperty ;
+        rdfs:domain :City ;
+        rdfs:range xsd:integer ;
+        rdfs:comment "The id of the city"@en ;
+        rdfs:label "city i d:" .
+
+
+###  https://uoc.edu/tourismOntology#eventID
+:eventID rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Event ;
+         rdfs:range xsd:integer ;
+         rdfs:comment "The id of the event"@en ;
+         rdfs:label "event i d:" .
+
+
+###  https://uoc.edu/tourismOntology#hasDate
+:hasDate rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Event ;
+         rdfs:range xsd:date ;
+         rdfs:comment "The date of the event"@en ;
+         rdfs:label "has date:" .
+
+
+###  https://uoc.edu/tourismOntology#hasPriceNight
+:hasPriceNight rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Hotel ;
+               rdfs:range xsd:integer ;
+               rdfs:comment "The price per night of the hotel"@en ;
+               rdfs:label "has price night:" .
+
+
+###  https://uoc.edu/tourismOntology#hotelID
+:hotelID rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Hotel ;
+         rdfs:range xsd:integer ;
+         rdfs:comment "The hotel id"@en ;
+         rdfs:label "hotel i d:" .
+
+
+###  https://uoc.edu/tourismOntology#latitude
+:latitude rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Location ;
+          rdfs:range xsd:double ;
+          rdfs:comment "The latitude of the location"@en ;
+          rdfs:label "latitude:" .
+
+
+###  https://uoc.edu/tourismOntology#longitude
+:longitude rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Location ;
+           rdfs:range xsd:double ;
+           rdfs:comment "The longitude of the location"@en ;
+           rdfs:label "longitude:" .
+
+
+###  https://uoc.edu/tourismOntology#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:range xsd:string ;
+      rdfs:comment "The name of the individual"@en ;
+      rdfs:label "name:" .
+
+
+###  https://uoc.edu/tourismOntology#rating
+:rating rdf:type owl:DatatypeProperty ;
+        rdfs:range xsd:double ;
+        rdfs:comment "The rating of that individual"@en ;
+        rdfs:label "rating:" .
+
+
+###  https://uoc.edu/tourismOntology#restaurantID
+:restaurantID rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Restaurant ;
+              rdfs:range xsd:integer ;
+              rdfs:comment "The id of the restaurant"@en ;
+              rdfs:label "restaurant i d:" .
+
+
+###  https://uoc.edu/tourismOntology#stars
+:stars rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Hotel ;
+       rdfs:range xsd:integer ;
+       rdfs:comment "The stars of the hotel"@en ;
+       rdfs:label "stars:" .
+
+
+###  https://uoc.edu/tourismOntology#telephone
+:telephone rdf:type owl:DatatypeProperty ;
+           rdfs:domain :TravelAgency ;
+           rdfs:range xsd:string ;
+           rdfs:comment "The telephone number of the agency"@en ;
+           rdfs:label "telephone:" .
+
+
+###  https://uoc.edu/tourismOntology#transportID
+:transportID rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Transport ;
+             rdfs:range xsd:integer ;
+             rdfs:comment "The id of the transport"@en ;
+             rdfs:label "transport i d:" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/resource/City
+<http://dbpedia.org/resource/City> rdf:type owl:Class ;
+                                   rdfs:comment "A city" ;
+                                   rdfs:label "City" .
+
+
+###  http://dbpedia.org/resource/Hotel
+<http://dbpedia.org/resource/Hotel> rdf:type owl:Class ;
+                                    rdfs:comment "A hotel" ;
+                                    rdfs:label "Hotel" .
+
+
+###  http://dbpedia.org/resource/Restaurant
+<http://dbpedia.org/resource/Restaurant> rdf:type owl:Class ;
+                                         rdfs:comment "A restaurant" ;
+                                         rdfs:label "Restaurant" .
+
+
+###  http://dbpedia.org/resource/Tourist_attraction
+<http://dbpedia.org/resource/Tourist_attraction> rdf:type owl:Class ;
+                                                 rdfs:comment "A tourist attraction" ;
+                                                 rdfs:label "Tourist_attraction" .
+
+
+###  http://dbpedia.org/resource/Transport
+<http://dbpedia.org/resource/Transport> rdf:type owl:Class ;
+                                        rdfs:comment "A transport" ;
+                                        rdfs:label "Transport" .
+
+
+###  http://dbpedia.org/resource/Travel_agency
+<http://dbpedia.org/resource/Travel_agency> rdf:type owl:Class ;
+                                            rdfs:comment "A Travel agency" ;
+                                            rdfs:label "Travel_agency" .
+
+
+###  http://www.w3.org/2002/07/owl#Thing
+owl:Thing rdfs:comment "Thing. Root clas." ;
+          rdfs:label "Thing" .
+
+
+###  https://uoc.edu/tourismOntology#Attraction
+:Attraction rdf:type owl:Class ;
+            rdfs:subClassOf <http://dbpedia.org/resource/Tourist_attraction> ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :attractionID ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :name ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :rating ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ;
+            rdfs:comment "a place which draws visitors by providing something of interest or pleasure." ;
+            rdfs:label "Attraction" .
+
+
+###  https://uoc.edu/tourismOntology#AttractionType
+:AttractionType rdf:type owl:Class ;
+                rdfs:comment "a place which draws visitors by providing something of interest or pleasure."@en ;
+                rdfs:label "Attraction Type" .
+
+
+###  https://uoc.edu/tourismOntology#BeachCity
+:BeachCity rdf:type owl:Class ;
+           rdfs:subClassOf :Recommendation ;
+           rdfs:comment "A touristic city by the beach"@en ;
+           rdfs:label "Beach city" .
+
+
+###  https://uoc.edu/tourismOntology#City
+:City rdf:type owl:Class ;
+      rdfs:subClassOf <http://dbpedia.org/resource/City> ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasAgency ;
+                        owl:someValuesFrom :TravelAgency
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasHotel ;
+                        owl:someValuesFrom :Hotel
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasLocation ;
+                        owl:cardinality "1"^^xsd:nonNegativeInteger
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :cityID ;
+                        owl:cardinality "1"^^xsd:nonNegativeInteger
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :name ;
+                        owl:cardinality "1"^^xsd:nonNegativeInteger
+                      ] ;
+      rdfs:comment "A place where many people live"@en ;
+      rdfs:label "City" .
+
+
+###  https://uoc.edu/tourismOntology#Company
+:Company rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty :name ;
+                           owl:cardinality "1"^^xsd:nonNegativeInteger
+                         ] ;
+         rdfs:comment "a commercial business."@en ;
+         rdfs:label "Company" .
+
+
+###  https://uoc.edu/tourismOntology#CulturalCity
+:CulturalCity rdf:type owl:Class ;
+              rdfs:subClassOf :Recommendation ;
+              rdfs:comment "A cultural touristic city"@en ;
+              rdfs:label "Cultural city" .
+
+
+###  https://uoc.edu/tourismOntology#Event
+:Event rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :eventID ;
+                         owl:cardinality "1"^^xsd:nonNegativeInteger
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasDate ;
+                         owl:cardinality "1"^^xsd:nonNegativeInteger
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :name ;
+                         owl:cardinality "1"^^xsd:nonNegativeInteger
+                       ] ;
+       rdfs:comment "a planned public or social occasion"@en ;
+       rdfs:label "Event" .
+
+
+###  https://uoc.edu/tourismOntology#EventType
+:EventType rdf:type owl:Class ;
+           rdfs:comment "The type of event"@en ;
+           rdfs:label "Event Type" .
+
+
+###  https://uoc.edu/tourismOntology#FoodType
+:FoodType rdf:type owl:Class ;
+          rdfs:comment "The type of food"@en ;
+          rdfs:label "Food Type" .
+
+
+###  https://uoc.edu/tourismOntology#GastronomicCity
+:GastronomicCity rdf:type owl:Class ;
+                 rdfs:subClassOf :Recommendation ;
+                 rdfs:comment "A traditional gastronomic touristic city"@en ;
+                 rdfs:label "Gastronomic city" .
+
+
+###  https://uoc.edu/tourismOntology#Hotel
+:Hotel rdf:type owl:Class ;
+       rdfs:subClassOf <http://dbpedia.org/resource/Hotel> ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasPriceNight ;
+                         owl:cardinality "1"^^xsd:nonNegativeInteger
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hotelID ;
+                         owl:cardinality "1"^^xsd:nonNegativeInteger
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :name ;
+                         owl:cardinality "1"^^xsd:nonNegativeInteger
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :rating ;
+                         owl:cardinality "1"^^xsd:nonNegativeInteger
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :stars ;
+                         owl:cardinality "1"^^xsd:nonNegativeInteger
+                       ] ;
+       rdfs:comment "an establishment providing accommodation, meals, and other services for travellers and tourists."@en ;
+       rdfs:label "Hotel" .
+
+
+###  https://uoc.edu/tourismOntology#HotelType
+:HotelType rdf:type owl:Class ;
+           rdfs:comment "The type of hotel"@en ;
+           rdfs:label "Hotel Type" .
+
+
+###  https://uoc.edu/tourismOntology#Location
+:Location rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :latitude ;
+                            owl:cardinality "1"^^xsd:nonNegativeInteger
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :longitude ;
+                            owl:cardinality "1"^^xsd:nonNegativeInteger
+                          ] ;
+          rdfs:comment "a particular place or position."@en ;
+          rdfs:label "Location" .
+
+
+###  https://uoc.edu/tourismOntology#Recommendation
+:Recommendation rdf:type owl:Class ;
+                rdfs:comment "a suggestion or proposal as to the best course of action, especially one put forward by an authoritative body."@en ;
+                rdfs:label "Recommendation" .
+
+
+###  https://uoc.edu/tourismOntology#Restaurant
+:Restaurant rdf:type owl:Class ;
+            rdfs:subClassOf <http://dbpedia.org/resource/Restaurant> ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :averagePrice ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :name ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :rating ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :restaurantID ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ;
+            rdfs:comment "a place where people pay to sit and eat meals that are cooked and served on the premises."@en ;
+            rdfs:label "Restaurant" .
+
+
+###  https://uoc.edu/tourismOntology#Transport
+:Transport rdf:type owl:Class ;
+           rdfs:subClassOf <http://dbpedia.org/resource/Transport> ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :averageCost ;
+                             owl:cardinality "1"^^xsd:nonNegativeInteger
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :transportID ;
+                             owl:cardinality "1"^^xsd:nonNegativeInteger
+                           ] ;
+           rdfs:comment "a system or means of conveying people or goods from place to place."@en ;
+           rdfs:label "Transport" .
+
+
+###  https://uoc.edu/tourismOntology#TransportType
+:TransportType rdf:type owl:Class ;
+               rdfs:comment "The type of transport"@en ;
+               rdfs:label "Transport Type" .
+
+
+###  https://uoc.edu/tourismOntology#TravelAgency
+:TravelAgency rdf:type owl:Class ;
+              rdfs:subClassOf <http://dbpedia.org/resource/Travel_agency> ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :agencyID ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :name ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :telephone ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                              ] ;
+              rdfs:comment "a company or shop that makes travel arrangements for people. Tourism & holidays."@en ;
+              rdfs:label "Travel Agency" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://dbpedia.org/resource#Location1
+<http://dbpedia.org/resource#Location1> rdf:type owl:NamedIndividual ,
+                                                 :Location ;
+                                        :latitude "-4.0273"^^xsd:double ;
+                                        :longitude "39.8628"^^xsd:double ;
+                                        rdfs:comment "Location1" ;
+                                        rdfs:label "Location1" .
+
+
+###  http://dbpedia.org/resource#Toledo
+<http://dbpedia.org/resource#Toledo> rdf:type owl:NamedIndividual ,
+                                              :City ;
+                                     :hasAgency :TravelAgency1 ;
+                                     :hasAttraction :Attraction56 ;
+                                     :hasEvent :Event52 ;
+                                     :hasHotel :Hotel23 ;
+                                     :hasLocation <http://dbpedia.org/resource#Location1> ;
+                                     :cityID 1 ;
+                                     :name "Toledo" ;
+                                     rdfs:comment "Toledo" ;
+                                     rdfs:label "Toledo" .
+
+
+###  https://uoc.edu/tourismOntology#Andalusian
+:Andalusian rdf:type owl:NamedIndividual ,
+                     :FoodType ;
+            rdfs:comment "Andalusian" ;
+            rdfs:label "Andalusian" .
+
+
+###  https://uoc.edu/tourismOntology#Attraction20
+:Attraction20 rdf:type owl:NamedIndividual ,
+                       :Attraction ;
+              :hasAttractionType :BeachAttraction ;
+              :attractionID 20 ;
+              :name "Catedral Barcelona" ;
+              :rating "3.7"^^xsd:double ;
+              rdfs:comment "Attraction20" ;
+              rdfs:label "Attraction20" .
+
+
+###  https://uoc.edu/tourismOntology#Attraction56
+:Attraction56 rdf:type owl:NamedIndividual ,
+                       :Attraction ;
+              :hasAttractionType :CulturalAttraction ;
+              :attractionID 56 ;
+              :name "Museo Toledo" ;
+              :rating "4.2"^^xsd:double ;
+              rdfs:comment "Attraction56" ;
+              rdfs:label "Attraction56" .
+
+
+###  https://uoc.edu/tourismOntology#Barcelona
+:Barcelona rdf:type owl:NamedIndividual ,
+                    :City ;
+           :hasAgency :TravelAgency2 ;
+           :hasAttraction :Attraction20 ;
+           :hasEvent :Event65 ;
+           :hasHotel :Hotel9 ;
+           :hasLocation :Location2 ;
+           :hasRestaurant :Restaurant50 ;
+           :hasTransport :Transport9 ;
+           :cityID 4 ;
+           :name "Barcelona" ;
+           rdfs:comment "Barcelona" ;
+           rdfs:label "Barcelona" .
+
+
+###  https://uoc.edu/tourismOntology#BeachAttraction
+:BeachAttraction rdf:type owl:NamedIndividual ,
+                          :AttractionType ;
+                 rdfs:comment "BeachAttraction" ;
+                 rdfs:label "BeachAttraction" .
+
+
+###  https://uoc.edu/tourismOntology#BeachHotel
+:BeachHotel rdf:type owl:NamedIndividual ,
+                     :HotelType ;
+            rdfs:comment "BeachHotel" ;
+            rdfs:label "BeachHotel" .
+
+
+###  https://uoc.edu/tourismOntology#Bicicle
+:Bicicle rdf:type owl:NamedIndividual ,
+                  :TransportType ;
+         rdfs:comment "Bicicle" ;
+         rdfs:label "Bicicle" .
+
+
+###  https://uoc.edu/tourismOntology#Bus
+:Bus rdf:type owl:NamedIndividual ,
+              :TransportType ;
+     rdfs:comment "Bus" ;
+     rdfs:label "Bus" .
+
+
+###  https://uoc.edu/tourismOntology#Business
+:Business rdf:type owl:NamedIndividual ,
+                   :HotelType ;
+          rdfs:comment "Business" ;
+          rdfs:label "Business" .
+
+
+###  https://uoc.edu/tourismOntology#CompanyMetroBarcelona
+:CompanyMetroBarcelona rdf:type owl:NamedIndividual ,
+                                :Company ;
+                       :name "Metro de Barcelona" ;
+                       rdfs:comment "CompanyMetroBarcelona" ;
+                       rdfs:label "CompanyMetroBarcelona" .
+
+
+###  https://uoc.edu/tourismOntology#CulturalAttraction
+:CulturalAttraction rdf:type owl:NamedIndividual ,
+                             :AttractionType ;
+                    rdfs:comment "CulturalAttraction" ;
+                    rdfs:label "CulturalAttraction" .
+
+
+###  https://uoc.edu/tourismOntology#CulturalEvent
+:CulturalEvent rdf:type owl:NamedIndividual ,
+                        :EventType ;
+               rdfs:comment "CulturalEvent" ;
+               rdfs:label "CulturalEvent" .
+
+
+###  https://uoc.edu/tourismOntology#Event52
+:Event52 rdf:type owl:NamedIndividual ,
+                  :Event ;
+         :hasEventType :CulturalEvent ;
+         :eventID 52 ;
+         :hasDate "2024-10-27"^^xsd:date ;
+         :name "Congreso Toledo" ;
+         rdfs:comment "Event52" ;
+         rdfs:label "Event52" .
+
+
+###  https://uoc.edu/tourismOntology#Event65
+:Event65 rdf:type owl:NamedIndividual ,
+                  :Event ;
+         :hasEventType :Gastronomic ;
+         :eventID 65 ;
+         :hasDate "2024-03-16"^^xsd:date ;
+         :name "Carnaval Barcelona" ;
+         rdfs:comment "Event65" ;
+         rdfs:label "Event65" .
+
+
+###  https://uoc.edu/tourismOntology#Gastronomic
+:Gastronomic rdf:type owl:NamedIndividual ,
+                      :EventType ;
+             rdfs:comment "Gastronomic" ;
+             rdfs:label "Gastronomic" .
+
+
+###  https://uoc.edu/tourismOntology#Hotel23
+:Hotel23 rdf:type owl:NamedIndividual ,
+                  :Hotel ;
+         :hasHotelType :Touristic ;
+         :hasPriceNight 99 ;
+         :hotelID 23 ;
+         :name "Hotel Vista Toledo" ;
+         :rating "4.6"^^xsd:double ;
+         :stars 3 ;
+         rdfs:comment "Hotel23" ;
+         rdfs:label "Hotel23" .
+
+
+###  https://uoc.edu/tourismOntology#Hotel9
+:Hotel9 rdf:type owl:NamedIndividual ,
+                 :Hotel ;
+        :hasHotelType :BeachHotel ;
+        :hasPriceNight 252 ;
+        :hotelID 9 ;
+        :name "Royal Barcelona" ;
+        :rating "4.0"^^xsd:double ;
+        :stars 4 ;
+        rdfs:comment "Hotel9" ;
+        rdfs:label "Hotel9" .
+
+
+###  https://uoc.edu/tourismOntology#Italian
+:Italian rdf:type owl:NamedIndividual ,
+                  :FoodType ;
+         rdfs:comment "Italian" ;
+         rdfs:label "Italian" .
+
+
+###  https://uoc.edu/tourismOntology#Japanese
+:Japanese rdf:type owl:NamedIndividual ,
+                   :FoodType ;
+          rdfs:comment "Japanese" ;
+          rdfs:label "Japanese" .
+
+
+###  https://uoc.edu/tourismOntology#Location2
+:Location2 rdf:type owl:NamedIndividual ,
+                    :Location ;
+           :latitude "41.3874"^^xsd:double ;
+           :longitude "2.1686"^^xsd:double ;
+           rdfs:comment "Location2" ;
+           rdfs:label "Location2" .
+
+
+###  https://uoc.edu/tourismOntology#Luxury
+:Luxury rdf:type owl:NamedIndividual ,
+                 :HotelType ;
+        rdfs:comment "Luxury" ;
+        rdfs:label "Luxury" .
+
+
+###  https://uoc.edu/tourismOntology#Mediterranean
+:Mediterranean rdf:type owl:NamedIndividual ,
+                        :FoodType ;
+               rdfs:comment "Mediterranean" ;
+               rdfs:label "Mediterranean" .
+
+
+###  https://uoc.edu/tourismOntology#Mexican
+:Mexican rdf:type owl:NamedIndividual ,
+                  :FoodType ;
+         rdfs:comment "Mexican" ;
+         rdfs:label "Mexican" .
+
+
+###  https://uoc.edu/tourismOntology#Monument
+:Monument rdf:type owl:NamedIndividual ,
+                   :AttractionType ;
+          rdfs:comment "Monument" ;
+          rdfs:label "Monument" .
+
+
+###  https://uoc.edu/tourismOntology#Museum
+:Museum rdf:type owl:NamedIndividual ,
+                 :AttractionType ;
+        rdfs:comment "Museum" ;
+        rdfs:label "Museum" .
+
+
+###  https://uoc.edu/tourismOntology#Music
+:Music rdf:type owl:NamedIndividual ,
+                :EventType ;
+       rdfs:comment "Music" ;
+       rdfs:label "Music" .
+
+
+###  https://uoc.edu/tourismOntology#Park
+:Park rdf:type owl:NamedIndividual ,
+               :AttractionType ;
+      rdfs:comment "Park" ;
+      rdfs:label "Park" .
+
+
+###  https://uoc.edu/tourismOntology#Restaurant50
+:Restaurant50 rdf:type owl:NamedIndividual ,
+                       :Restaurant ;
+              :hasFoodType :Andalusian ;
+              :averagePrice 65 ;
+              :name "Delicia Barcelona" ;
+              :rating "4.5"^^xsd:double ;
+              :restaurantID 50 ;
+              rdfs:comment "Restaurant50" ;
+              rdfs:label "Restaurant50" .
+
+
+###  https://uoc.edu/tourismOntology#Rural
+:Rural rdf:type owl:NamedIndividual ,
+                :HotelType ;
+       rdfs:comment "Rural" ;
+       rdfs:label "Rural" .
+
+
+###  https://uoc.edu/tourismOntology#Sports
+:Sports rdf:type owl:NamedIndividual ,
+                 :EventType ;
+        rdfs:comment "Sports" ;
+        rdfs:label "Sports" .
+
+
+###  https://uoc.edu/tourismOntology#Subway
+:Subway rdf:type owl:NamedIndividual ,
+                 :TransportType ;
+        rdfs:comment "Subway" ;
+        rdfs:label "Subway" .
+
+
+###  https://uoc.edu/tourismOntology#Taxi
+:Taxi rdf:type owl:NamedIndividual ,
+               :TransportType ;
+      rdfs:comment "Taxi" ;
+      rdfs:label "Taxi" .
+
+
+###  https://uoc.edu/tourismOntology#Technological
+:Technological rdf:type owl:NamedIndividual ,
+                        :EventType ;
+               rdfs:comment "Technological" ;
+               rdfs:label "Technological" .
+
+
+###  https://uoc.edu/tourismOntology#Touristic
+:Touristic rdf:type owl:NamedIndividual ,
+                    :HotelType ;
+           rdfs:comment "Touristic" ;
+           rdfs:label "Touristic" .
+
+
+###  https://uoc.edu/tourismOntology#Tram
+:Tram rdf:type owl:NamedIndividual ,
+               :TransportType ;
+      rdfs:comment "Tram" ;
+      rdfs:label "Tram" .
+
+
+###  https://uoc.edu/tourismOntology#Transport9
+:Transport9 rdf:type owl:NamedIndividual ,
+                     :Transport ;
+            :hasCompany :CompanyMetroBarcelona ;
+            :hasTransportType :Bus ;
+            :averageCost "8.72"^^xsd:double ;
+            :transportID 9 ;
+            rdfs:comment "Transport9" ;
+            rdfs:label "Transport9" .
+
+
+###  https://uoc.edu/tourismOntology#TravelAgency1
+:TravelAgency1 rdf:type owl:NamedIndividual ,
+                        :TravelAgency ;
+               :agencyID 1 ;
+               :name "Agencia de Viajes de Toledo" ;
+               :telephone "670 760 555" ;
+               rdfs:comment "TravelAgency1" ;
+               rdfs:label "TravelAgency1" .
+
+
+###  https://uoc.edu/tourismOntology#TravelAgency2
+:TravelAgency2 rdf:type owl:NamedIndividual ,
+                        :TravelAgency ;
+               :agencyID 2 ;
+               :name "Agencia de viajes de Barcelona" ;
+               :telephone "345 678 987" ;
+               rdfs:comment "TravelAgency2" ;
+               rdfs:label "TravelAgency2" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+owl:topDataProperty rdfs:comment "Root data property" ;
+                    rdfs:label "topDataProperty" .
+
+
+owl:topObjectProperty rdfs:comment "root object property" ;
+                      rdfs:label "topObjectProperty" .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+:c rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+:e rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+:a rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+:h rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+:r rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+:p rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
+   rdfs:comment "Si una ciudad tiene algún evento cultural y alguna atracción cultural entonces es una ciudad cultural (S2)" ;
+   rdfs:label "S2" ;
+   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :City ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> :c
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasEvent ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> :c ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> :e
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasEventType ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> :e ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument2> :CulturalEvent
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAttraction ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument1> :c ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument2> :a
+                                                                                      ] ;
+                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAttractionType ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> :a ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#argument2> :CulturalAttraction
+                                                                                                 ] ;
+                                                                                       rdf:rest rdf:nil
+                                                                                     ]
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :CulturalCity ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> :c
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
+   rdfs:comment "Se han añadido las siguientes reglas. Si una ciudad tiene algún hotel de playa y alguna atracción de playa entonces es una ciudad de playa (S1)" ;
+   rdfs:label "S1" ;
+   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :City ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> :c
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasHotel ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> :c ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> :h
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasHotelType ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> :h ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument2> :BeachHotel
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAttraction ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument1> :c ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument2> :a
+                                                                                      ] ;
+                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAttractionType ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> :a ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#argument2> :BeachAttraction
+                                                                                                 ] ;
+                                                                                       rdf:rest rdf:nil
+                                                                                     ]
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :BeachCity ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> :c
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
+   rdfs:comment "Si alguna ciudad tiene algún restaurante con comida andaluza o mediterránea, y tiene eventos gastronómicos, entonces es considerada ciudad gastronómica (S3 y S4)" ;
+   rdfs:label "S4" ;
+   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :City ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> :c
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasRestaurant ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> :c ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> :r
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasFoodType ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> :p ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument2> :Andalusian
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasEvent ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument1> :c ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument2> :e
+                                                                                      ] ;
+                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasEventType ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> :e ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#argument2> :Gastronomic
+                                                                                                 ] ;
+                                                                                       rdf:rest rdf:nil
+                                                                                     ]
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :GastronomicCity ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> :c
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
+   rdfs:comment "Si alguna ciudad tiene algún restaurante con comida andaluza o mediterránea, y tiene eventos gastronómicos, entonces es considerada ciudad gastronómica (S3 y S4)" ;
+   rdfs:label "S3" ;
+   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :City ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> :c
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasRestaurant ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> :c ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> :r
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasFoodType ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> :p ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument2> :Mediterranean
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasEvent ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument1> :c ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument2> :e
+                                                                                      ] ;
+                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasEventType ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> :e ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#argument2> :Gastronomic
+                                                                                                 ] ;
+                                                                                       rdf:rest rdf:nil
+                                                                                     ]
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :GastronomicCity ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> :c
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

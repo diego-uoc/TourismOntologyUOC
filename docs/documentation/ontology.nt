@@ -1,0 +1,1073 @@
+<https://uoc.edu/tourismOntology#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://uoc.edu/tourismOntology#> <http://www.w3.org/2002/07/owl#versionIRI> <https://uoc.edu/tourismOntology/1.0.0> .
+<https://uoc.edu/tourismOntology#> <http://purl.org/dc/elements/1.1/created> "2025-04-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://uoc.edu/tourismOntology#> <http://purl.org/dc/elements/1.1/creator> "Diego Villar Alcalá" .
+<https://uoc.edu/tourismOntology#> <http://purl.org/dc/elements/1.1/description> "This is an ontology that is design to give information based on the characteristics of different cities"@en .
+<https://uoc.edu/tourismOntology#> <http://purl.org/dc/elements/1.1/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://uoc.edu/tourismOntology#> <http://purl.org/dc/elements/1.1/title> "Tourism recommendations ontology"@en .
+<https://uoc.edu/tourismOntology#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "tro" .
+<https://uoc.edu/tourismOntology#> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://uoc.edu/tourismOntology#> .
+<https://uoc.edu/tourismOntology#> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
+<https://uoc.edu/tourismOntology#> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/created
+<http://purl.org/dc/elements/1.1/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionIRI
+<http://www.w3.org/2002/07/owl#versionIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionInfo
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://uoc.edu/tourismOntology#hasAgency
+<https://uoc.edu/tourismOntology#hasAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasAgency> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#City> .
+<https://uoc.edu/tourismOntology#hasAgency> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#TravelAgency> .
+<https://uoc.edu/tourismOntology#hasAgency> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates a City to an Agency"@en .
+<https://uoc.edu/tourismOntology#hasAgency> <http://www.w3.org/2000/01/rdf-schema#label> "has agency" .
+# 
+# https://uoc.edu/tourismOntology#hasAttraction
+<https://uoc.edu/tourismOntology#hasAttraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasAttraction> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#City> .
+<https://uoc.edu/tourismOntology#hasAttraction> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#Attraction> .
+<https://uoc.edu/tourismOntology#hasAttraction> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates a City to an Attrraction"@en .
+<https://uoc.edu/tourismOntology#hasAttraction> <http://www.w3.org/2000/01/rdf-schema#label> "has attraction" .
+# 
+# https://uoc.edu/tourismOntology#hasAttractionType
+<https://uoc.edu/tourismOntology#hasAttractionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasAttractionType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Attraction> .
+<https://uoc.edu/tourismOntology#hasAttractionType> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#AttractionType> .
+<https://uoc.edu/tourismOntology#hasAttractionType> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates an Attraction to an Attraction type"@en .
+<https://uoc.edu/tourismOntology#hasAttractionType> <http://www.w3.org/2000/01/rdf-schema#label> "has attraction type" .
+# 
+# https://uoc.edu/tourismOntology#hasCompany
+<https://uoc.edu/tourismOntology#hasCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasCompany> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Transport> .
+<https://uoc.edu/tourismOntology#hasCompany> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#Company> .
+<https://uoc.edu/tourismOntology#hasCompany> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates a Transport to a Company"@en .
+<https://uoc.edu/tourismOntology#hasCompany> <http://www.w3.org/2000/01/rdf-schema#label> "has company" .
+# 
+# https://uoc.edu/tourismOntology#hasEvent
+<https://uoc.edu/tourismOntology#hasEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#City> .
+<https://uoc.edu/tourismOntology#hasEvent> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#Event> .
+<https://uoc.edu/tourismOntology#hasEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates a City to an Event" .
+<https://uoc.edu/tourismOntology#hasEvent> <http://www.w3.org/2000/01/rdf-schema#label> "has event" .
+# 
+# https://uoc.edu/tourismOntology#hasEventType
+<https://uoc.edu/tourismOntology#hasEventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasEventType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Event> .
+<https://uoc.edu/tourismOntology#hasEventType> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#EventType> .
+<https://uoc.edu/tourismOntology#hasEventType> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates an Event to an Event type" .
+<https://uoc.edu/tourismOntology#hasEventType> <http://www.w3.org/2000/01/rdf-schema#label> "has event type" .
+# 
+# https://uoc.edu/tourismOntology#hasFoodType
+<https://uoc.edu/tourismOntology#hasFoodType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasFoodType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Restaurant> .
+<https://uoc.edu/tourismOntology#hasFoodType> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#FoodType> .
+<https://uoc.edu/tourismOntology#hasFoodType> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates a Restaurant to a Food Type"@en .
+<https://uoc.edu/tourismOntology#hasFoodType> <http://www.w3.org/2000/01/rdf-schema#label> "has food type" .
+# 
+# https://uoc.edu/tourismOntology#hasHotel
+<https://uoc.edu/tourismOntology#hasHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasHotel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#City> .
+<https://uoc.edu/tourismOntology#hasHotel> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#Hotel> .
+<https://uoc.edu/tourismOntology#hasHotel> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates a City to a Hotel"@en .
+<https://uoc.edu/tourismOntology#hasHotel> <http://www.w3.org/2000/01/rdf-schema#label> "has hotel" .
+# 
+# https://uoc.edu/tourismOntology#hasHotelType
+<https://uoc.edu/tourismOntology#hasHotelType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasHotelType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Hotel> .
+<https://uoc.edu/tourismOntology#hasHotelType> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#HotelType> .
+<https://uoc.edu/tourismOntology#hasHotelType> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates a Hotel to a Hotel type"@en .
+<https://uoc.edu/tourismOntology#hasHotelType> <http://www.w3.org/2000/01/rdf-schema#label> "has hotel type" .
+# 
+# https://uoc.edu/tourismOntology#hasLocation
+<https://uoc.edu/tourismOntology#hasLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#City> .
+<https://uoc.edu/tourismOntology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#Location> .
+<https://uoc.edu/tourismOntology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates a City to a Location"@en .
+<https://uoc.edu/tourismOntology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#label> "has location" .
+# 
+# https://uoc.edu/tourismOntology#hasRestaurant
+<https://uoc.edu/tourismOntology#hasRestaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasRestaurant> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#City> .
+<https://uoc.edu/tourismOntology#hasRestaurant> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#Restaurant> .
+<https://uoc.edu/tourismOntology#hasRestaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates a City to a Restaurant"@en .
+<https://uoc.edu/tourismOntology#hasRestaurant> <http://www.w3.org/2000/01/rdf-schema#label> "has restaurant" .
+# 
+# https://uoc.edu/tourismOntology#hasTransport
+<https://uoc.edu/tourismOntology#hasTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasTransport> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#City> .
+<https://uoc.edu/tourismOntology#hasTransport> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#Transport> .
+<https://uoc.edu/tourismOntology#hasTransport> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates a City to a Transport"@en .
+<https://uoc.edu/tourismOntology#hasTransport> <http://www.w3.org/2000/01/rdf-schema#label> "has transport" .
+# 
+# https://uoc.edu/tourismOntology#hasTransportType
+<https://uoc.edu/tourismOntology#hasTransportType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://uoc.edu/tourismOntology#hasTransportType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Transport> .
+<https://uoc.edu/tourismOntology#hasTransportType> <http://www.w3.org/2000/01/rdf-schema#range> <https://uoc.edu/tourismOntology#TransportType> .
+<https://uoc.edu/tourismOntology#hasTransportType> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that relates a Transport to a Transport type"@en .
+<https://uoc.edu/tourismOntology#hasTransportType> <http://www.w3.org/2000/01/rdf-schema#label> "has transport type" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://uoc.edu/tourismOntology#agencyID
+<https://uoc.edu/tourismOntology#agencyID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#agencyID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#TravelAgency> .
+<https://uoc.edu/tourismOntology#agencyID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#agencyID> <http://www.w3.org/2000/01/rdf-schema#comment> "The id of the agency"@en .
+<https://uoc.edu/tourismOntology#agencyID> <http://www.w3.org/2000/01/rdf-schema#label> "agency i d:" .
+# 
+# https://uoc.edu/tourismOntology#attractionID
+<https://uoc.edu/tourismOntology#attractionID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#attractionID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Attraction> .
+<https://uoc.edu/tourismOntology#attractionID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#attractionID> <http://www.w3.org/2000/01/rdf-schema#comment> "The id of the attraction"@en .
+<https://uoc.edu/tourismOntology#attractionID> <http://www.w3.org/2000/01/rdf-schema#label> "attraction i d:" .
+# 
+# https://uoc.edu/tourismOntology#averageCost
+<https://uoc.edu/tourismOntology#averageCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#averageCost> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Transport> .
+<https://uoc.edu/tourismOntology#averageCost> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://uoc.edu/tourismOntology#averageCost> <http://www.w3.org/2000/01/rdf-schema#comment> "The average cost of the transport"@en .
+<https://uoc.edu/tourismOntology#averageCost> <http://www.w3.org/2000/01/rdf-schema#label> "average cost:" .
+# 
+# https://uoc.edu/tourismOntology#averagePrice
+<https://uoc.edu/tourismOntology#averagePrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#averagePrice> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Restaurant> .
+<https://uoc.edu/tourismOntology#averagePrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#averagePrice> <http://www.w3.org/2000/01/rdf-schema#comment> "The average price of the restaurant"@en .
+<https://uoc.edu/tourismOntology#averagePrice> <http://www.w3.org/2000/01/rdf-schema#label> "average price:" .
+# 
+# https://uoc.edu/tourismOntology#cityID
+<https://uoc.edu/tourismOntology#cityID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#cityID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#City> .
+<https://uoc.edu/tourismOntology#cityID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#cityID> <http://www.w3.org/2000/01/rdf-schema#comment> "The id of the city"@en .
+<https://uoc.edu/tourismOntology#cityID> <http://www.w3.org/2000/01/rdf-schema#label> "city i d:" .
+# 
+# https://uoc.edu/tourismOntology#eventID
+<https://uoc.edu/tourismOntology#eventID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#eventID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Event> .
+<https://uoc.edu/tourismOntology#eventID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#eventID> <http://www.w3.org/2000/01/rdf-schema#comment> "The id of the event"@en .
+<https://uoc.edu/tourismOntology#eventID> <http://www.w3.org/2000/01/rdf-schema#label> "event i d:" .
+# 
+# https://uoc.edu/tourismOntology#hasDate
+<https://uoc.edu/tourismOntology#hasDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#hasDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Event> .
+<https://uoc.edu/tourismOntology#hasDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<https://uoc.edu/tourismOntology#hasDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of the event"@en .
+<https://uoc.edu/tourismOntology#hasDate> <http://www.w3.org/2000/01/rdf-schema#label> "has date:" .
+# 
+# https://uoc.edu/tourismOntology#hasPriceNight
+<https://uoc.edu/tourismOntology#hasPriceNight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#hasPriceNight> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Hotel> .
+<https://uoc.edu/tourismOntology#hasPriceNight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#hasPriceNight> <http://www.w3.org/2000/01/rdf-schema#comment> "The price per night of the hotel"@en .
+<https://uoc.edu/tourismOntology#hasPriceNight> <http://www.w3.org/2000/01/rdf-schema#label> "has price night:" .
+# 
+# https://uoc.edu/tourismOntology#hotelID
+<https://uoc.edu/tourismOntology#hotelID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#hotelID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Hotel> .
+<https://uoc.edu/tourismOntology#hotelID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#hotelID> <http://www.w3.org/2000/01/rdf-schema#comment> "The hotel id"@en .
+<https://uoc.edu/tourismOntology#hotelID> <http://www.w3.org/2000/01/rdf-schema#label> "hotel i d:" .
+# 
+# https://uoc.edu/tourismOntology#latitude
+<https://uoc.edu/tourismOntology#latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#latitude> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Location> .
+<https://uoc.edu/tourismOntology#latitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://uoc.edu/tourismOntology#latitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The latitude of the location"@en .
+<https://uoc.edu/tourismOntology#latitude> <http://www.w3.org/2000/01/rdf-schema#label> "latitude:" .
+# 
+# https://uoc.edu/tourismOntology#longitude
+<https://uoc.edu/tourismOntology#longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#longitude> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Location> .
+<https://uoc.edu/tourismOntology#longitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://uoc.edu/tourismOntology#longitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The longitude of the location"@en .
+<https://uoc.edu/tourismOntology#longitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitude:" .
+# 
+# https://uoc.edu/tourismOntology#name
+<https://uoc.edu/tourismOntology#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://uoc.edu/tourismOntology#name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the individual"@en .
+<https://uoc.edu/tourismOntology#name> <http://www.w3.org/2000/01/rdf-schema#label> "name:" .
+# 
+# https://uoc.edu/tourismOntology#rating
+<https://uoc.edu/tourismOntology#rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#rating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://uoc.edu/tourismOntology#rating> <http://www.w3.org/2000/01/rdf-schema#comment> "The rating of that individual"@en .
+<https://uoc.edu/tourismOntology#rating> <http://www.w3.org/2000/01/rdf-schema#label> "rating:" .
+# 
+# https://uoc.edu/tourismOntology#restaurantID
+<https://uoc.edu/tourismOntology#restaurantID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#restaurantID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Restaurant> .
+<https://uoc.edu/tourismOntology#restaurantID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#restaurantID> <http://www.w3.org/2000/01/rdf-schema#comment> "The id of the restaurant"@en .
+<https://uoc.edu/tourismOntology#restaurantID> <http://www.w3.org/2000/01/rdf-schema#label> "restaurant i d:" .
+# 
+# https://uoc.edu/tourismOntology#stars
+<https://uoc.edu/tourismOntology#stars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#stars> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Hotel> .
+<https://uoc.edu/tourismOntology#stars> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#stars> <http://www.w3.org/2000/01/rdf-schema#comment> "The stars of the hotel"@en .
+<https://uoc.edu/tourismOntology#stars> <http://www.w3.org/2000/01/rdf-schema#label> "stars:" .
+# 
+# https://uoc.edu/tourismOntology#telephone
+<https://uoc.edu/tourismOntology#telephone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#telephone> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#TravelAgency> .
+<https://uoc.edu/tourismOntology#telephone> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://uoc.edu/tourismOntology#telephone> <http://www.w3.org/2000/01/rdf-schema#comment> "The telephone number of the agency"@en .
+<https://uoc.edu/tourismOntology#telephone> <http://www.w3.org/2000/01/rdf-schema#label> "telephone:" .
+# 
+# https://uoc.edu/tourismOntology#transportID
+<https://uoc.edu/tourismOntology#transportID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://uoc.edu/tourismOntology#transportID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://uoc.edu/tourismOntology#Transport> .
+<https://uoc.edu/tourismOntology#transportID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#transportID> <http://www.w3.org/2000/01/rdf-schema#comment> "The id of the transport"@en .
+<https://uoc.edu/tourismOntology#transportID> <http://www.w3.org/2000/01/rdf-schema#label> "transport i d:" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/resource/City
+<http://dbpedia.org/resource/City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/resource/City> <http://www.w3.org/2000/01/rdf-schema#comment> "A city" .
+<http://dbpedia.org/resource/City> <http://www.w3.org/2000/01/rdf-schema#label> "City" .
+# 
+# http://dbpedia.org/resource/Hotel
+<http://dbpedia.org/resource/Hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/resource/Hotel> <http://www.w3.org/2000/01/rdf-schema#comment> "A hotel" .
+<http://dbpedia.org/resource/Hotel> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel" .
+# 
+# http://dbpedia.org/resource/Restaurant
+<http://dbpedia.org/resource/Restaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/resource/Restaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "A restaurant" .
+<http://dbpedia.org/resource/Restaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Restaurant" .
+# 
+# http://dbpedia.org/resource/Tourist_attraction
+<http://dbpedia.org/resource/Tourist_attraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/resource/Tourist_attraction> <http://www.w3.org/2000/01/rdf-schema#comment> "A tourist attraction" .
+<http://dbpedia.org/resource/Tourist_attraction> <http://www.w3.org/2000/01/rdf-schema#label> "Tourist_attraction" .
+# 
+# http://dbpedia.org/resource/Transport
+<http://dbpedia.org/resource/Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/resource/Transport> <http://www.w3.org/2000/01/rdf-schema#comment> "A transport" .
+<http://dbpedia.org/resource/Transport> <http://www.w3.org/2000/01/rdf-schema#label> "Transport" .
+# 
+# http://dbpedia.org/resource/Travel_agency
+<http://dbpedia.org/resource/Travel_agency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/resource/Travel_agency> <http://www.w3.org/2000/01/rdf-schema#comment> "A Travel agency" .
+<http://dbpedia.org/resource/Travel_agency> <http://www.w3.org/2000/01/rdf-schema#label> "Travel_agency" .
+# 
+# http://www.w3.org/2002/07/owl#Thing
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/2000/01/rdf-schema#comment> "Thing. Root clas." .
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/2000/01/rdf-schema#label> "Thing" .
+# 
+# https://uoc.edu/tourismOntology#Attraction
+<https://uoc.edu/tourismOntology#Attraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#Attraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/resource/Tourist_attraction> .
+<https://uoc.edu/tourismOntology#Attraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#attractionID> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Attraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#name> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Attraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#rating> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Attraction> <http://www.w3.org/2000/01/rdf-schema#comment> "a place which draws visitors by providing something of interest or pleasure." .
+<https://uoc.edu/tourismOntology#Attraction> <http://www.w3.org/2000/01/rdf-schema#label> "Attraction" .
+# 
+# https://uoc.edu/tourismOntology#AttractionType
+<https://uoc.edu/tourismOntology#AttractionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#AttractionType> <http://www.w3.org/2000/01/rdf-schema#comment> "a place which draws visitors by providing something of interest or pleasure."@en .
+<https://uoc.edu/tourismOntology#AttractionType> <http://www.w3.org/2000/01/rdf-schema#label> "Attraction Type" .
+# 
+# https://uoc.edu/tourismOntology#BeachCity
+<https://uoc.edu/tourismOntology#BeachCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#BeachCity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://uoc.edu/tourismOntology#Recommendation> .
+<https://uoc.edu/tourismOntology#BeachCity> <http://www.w3.org/2000/01/rdf-schema#comment> "A touristic city by the beach"@en .
+<https://uoc.edu/tourismOntology#BeachCity> <http://www.w3.org/2000/01/rdf-schema#label> "Beach city" .
+# 
+# https://uoc.edu/tourismOntology#City
+<https://uoc.edu/tourismOntology#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/resource/City> .
+<https://uoc.edu/tourismOntology#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://uoc.edu/tourismOntology#TravelAgency> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#hasAgency> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://uoc.edu/tourismOntology#Hotel> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#hasHotel> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#hasLocation> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#cityID> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#name> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#City> <http://www.w3.org/2000/01/rdf-schema#comment> "A place where many people live"@en .
+<https://uoc.edu/tourismOntology#City> <http://www.w3.org/2000/01/rdf-schema#label> "City" .
+# 
+# https://uoc.edu/tourismOntology#Company
+<https://uoc.edu/tourismOntology#Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#Company> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#name> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Company> <http://www.w3.org/2000/01/rdf-schema#comment> "a commercial business."@en .
+<https://uoc.edu/tourismOntology#Company> <http://www.w3.org/2000/01/rdf-schema#label> "Company" .
+# 
+# https://uoc.edu/tourismOntology#CulturalCity
+<https://uoc.edu/tourismOntology#CulturalCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#CulturalCity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://uoc.edu/tourismOntology#Recommendation> .
+<https://uoc.edu/tourismOntology#CulturalCity> <http://www.w3.org/2000/01/rdf-schema#comment> "A cultural touristic city"@en .
+<https://uoc.edu/tourismOntology#CulturalCity> <http://www.w3.org/2000/01/rdf-schema#label> "Cultural city" .
+# 
+# https://uoc.edu/tourismOntology#Event
+<https://uoc.edu/tourismOntology#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#eventID> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#hasDate> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#name> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Event> <http://www.w3.org/2000/01/rdf-schema#comment> "a planned public or social occasion"@en .
+<https://uoc.edu/tourismOntology#Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
+# 
+# https://uoc.edu/tourismOntology#EventType
+<https://uoc.edu/tourismOntology#EventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#EventType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of event"@en .
+<https://uoc.edu/tourismOntology#EventType> <http://www.w3.org/2000/01/rdf-schema#label> "Event Type" .
+# 
+# https://uoc.edu/tourismOntology#FoodType
+<https://uoc.edu/tourismOntology#FoodType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#FoodType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of food"@en .
+<https://uoc.edu/tourismOntology#FoodType> <http://www.w3.org/2000/01/rdf-schema#label> "Food Type" .
+# 
+# https://uoc.edu/tourismOntology#GastronomicCity
+<https://uoc.edu/tourismOntology#GastronomicCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#GastronomicCity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://uoc.edu/tourismOntology#Recommendation> .
+<https://uoc.edu/tourismOntology#GastronomicCity> <http://www.w3.org/2000/01/rdf-schema#comment> "A traditional gastronomic touristic city"@en .
+<https://uoc.edu/tourismOntology#GastronomicCity> <http://www.w3.org/2000/01/rdf-schema#label> "Gastronomic city" .
+# 
+# https://uoc.edu/tourismOntology#Hotel
+<https://uoc.edu/tourismOntology#Hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/resource/Hotel> .
+<https://uoc.edu/tourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#hasPriceNight> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#hotelID> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#name> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#rating> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#stars> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#comment> "an establishment providing accommodation, meals, and other services for travellers and tourists."@en .
+<https://uoc.edu/tourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel" .
+# 
+# https://uoc.edu/tourismOntology#HotelType
+<https://uoc.edu/tourismOntology#HotelType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#HotelType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of hotel"@en .
+<https://uoc.edu/tourismOntology#HotelType> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel Type" .
+# 
+# https://uoc.edu/tourismOntology#Location
+<https://uoc.edu/tourismOntology#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#latitude> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#longitude> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Location> <http://www.w3.org/2000/01/rdf-schema#comment> "a particular place or position."@en .
+<https://uoc.edu/tourismOntology#Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location" .
+# 
+# https://uoc.edu/tourismOntology#Recommendation
+<https://uoc.edu/tourismOntology#Recommendation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#Recommendation> <http://www.w3.org/2000/01/rdf-schema#comment> "a suggestion or proposal as to the best course of action, especially one put forward by an authoritative body."@en .
+<https://uoc.edu/tourismOntology#Recommendation> <http://www.w3.org/2000/01/rdf-schema#label> "Recommendation" .
+# 
+# https://uoc.edu/tourismOntology#Restaurant
+<https://uoc.edu/tourismOntology#Restaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/resource/Restaurant> .
+<https://uoc.edu/tourismOntology#Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#averagePrice> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#name> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#rating> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#restaurantID> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Restaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "a place where people pay to sit and eat meals that are cooked and served on the premises."@en .
+<https://uoc.edu/tourismOntology#Restaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Restaurant" .
+# 
+# https://uoc.edu/tourismOntology#Transport
+<https://uoc.edu/tourismOntology#Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#Transport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/resource/Transport> .
+<https://uoc.edu/tourismOntology#Transport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#averageCost> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Transport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#transportID> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#Transport> <http://www.w3.org/2000/01/rdf-schema#comment> "a system or means of conveying people or goods from place to place."@en .
+<https://uoc.edu/tourismOntology#Transport> <http://www.w3.org/2000/01/rdf-schema#label> "Transport" .
+# 
+# https://uoc.edu/tourismOntology#TransportType
+<https://uoc.edu/tourismOntology#TransportType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#TransportType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of transport"@en .
+<https://uoc.edu/tourismOntology#TransportType> <http://www.w3.org/2000/01/rdf-schema#label> "Transport Type" .
+# 
+# https://uoc.edu/tourismOntology#TravelAgency
+<https://uoc.edu/tourismOntology#TravelAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://uoc.edu/tourismOntology#TravelAgency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/resource/Travel_agency> .
+<https://uoc.edu/tourismOntology#TravelAgency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#agencyID> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#TravelAgency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#name> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#TravelAgency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <https://uoc.edu/tourismOntology#telephone> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://uoc.edu/tourismOntology#TravelAgency> <http://www.w3.org/2000/01/rdf-schema#comment> "a company or shop that makes travel arrangements for people. Tourism & holidays."@en .
+<https://uoc.edu/tourismOntology#TravelAgency> <http://www.w3.org/2000/01/rdf-schema#label> "Travel Agency" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/resource#Location1
+<http://dbpedia.org/resource#Location1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/resource#Location1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#Location> .
+<http://dbpedia.org/resource#Location1> <https://uoc.edu/tourismOntology#latitude> "-4.0273"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource#Location1> <https://uoc.edu/tourismOntology#longitude> "39.8628"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource#Location1> <http://www.w3.org/2000/01/rdf-schema#comment> "Location1" .
+<http://dbpedia.org/resource#Location1> <http://www.w3.org/2000/01/rdf-schema#label> "Location1" .
+# 
+# http://dbpedia.org/resource#Toledo
+<http://dbpedia.org/resource#Toledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/resource#Toledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#City> .
+<http://dbpedia.org/resource#Toledo> <https://uoc.edu/tourismOntology#hasAgency> <https://uoc.edu/tourismOntology#TravelAgency1> .
+<http://dbpedia.org/resource#Toledo> <https://uoc.edu/tourismOntology#hasAttraction> <https://uoc.edu/tourismOntology#Attraction56> .
+<http://dbpedia.org/resource#Toledo> <https://uoc.edu/tourismOntology#hasEvent> <https://uoc.edu/tourismOntology#Event52> .
+<http://dbpedia.org/resource#Toledo> <https://uoc.edu/tourismOntology#hasHotel> <https://uoc.edu/tourismOntology#Hotel23> .
+<http://dbpedia.org/resource#Toledo> <https://uoc.edu/tourismOntology#hasLocation> <http://dbpedia.org/resource#Location1> .
+<http://dbpedia.org/resource#Toledo> <https://uoc.edu/tourismOntology#cityID> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource#Toledo> <https://uoc.edu/tourismOntology#name> "Toledo" .
+<http://dbpedia.org/resource#Toledo> <http://www.w3.org/2000/01/rdf-schema#comment> "Toledo" .
+<http://dbpedia.org/resource#Toledo> <http://www.w3.org/2000/01/rdf-schema#label> "Toledo" .
+# 
+# https://uoc.edu/tourismOntology#Andalusian
+<https://uoc.edu/tourismOntology#Andalusian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Andalusian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#FoodType> .
+<https://uoc.edu/tourismOntology#Andalusian> <http://www.w3.org/2000/01/rdf-schema#comment> "Andalusian" .
+<https://uoc.edu/tourismOntology#Andalusian> <http://www.w3.org/2000/01/rdf-schema#label> "Andalusian" .
+# 
+# https://uoc.edu/tourismOntology#Attraction20
+<https://uoc.edu/tourismOntology#Attraction20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Attraction20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#Attraction> .
+<https://uoc.edu/tourismOntology#Attraction20> <https://uoc.edu/tourismOntology#hasAttractionType> <https://uoc.edu/tourismOntology#BeachAttraction> .
+<https://uoc.edu/tourismOntology#Attraction20> <https://uoc.edu/tourismOntology#attractionID> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Attraction20> <https://uoc.edu/tourismOntology#name> "Catedral Barcelona" .
+<https://uoc.edu/tourismOntology#Attraction20> <https://uoc.edu/tourismOntology#rating> "3.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://uoc.edu/tourismOntology#Attraction20> <http://www.w3.org/2000/01/rdf-schema#comment> "Attraction20" .
+<https://uoc.edu/tourismOntology#Attraction20> <http://www.w3.org/2000/01/rdf-schema#label> "Attraction20" .
+# 
+# https://uoc.edu/tourismOntology#Attraction56
+<https://uoc.edu/tourismOntology#Attraction56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Attraction56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#Attraction> .
+<https://uoc.edu/tourismOntology#Attraction56> <https://uoc.edu/tourismOntology#hasAttractionType> <https://uoc.edu/tourismOntology#CulturalAttraction> .
+<https://uoc.edu/tourismOntology#Attraction56> <https://uoc.edu/tourismOntology#attractionID> "56"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Attraction56> <https://uoc.edu/tourismOntology#name> "Museo Toledo" .
+<https://uoc.edu/tourismOntology#Attraction56> <https://uoc.edu/tourismOntology#rating> "4.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://uoc.edu/tourismOntology#Attraction56> <http://www.w3.org/2000/01/rdf-schema#comment> "Attraction56" .
+<https://uoc.edu/tourismOntology#Attraction56> <http://www.w3.org/2000/01/rdf-schema#label> "Attraction56" .
+# 
+# https://uoc.edu/tourismOntology#Barcelona
+<https://uoc.edu/tourismOntology#Barcelona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Barcelona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#City> .
+<https://uoc.edu/tourismOntology#Barcelona> <https://uoc.edu/tourismOntology#hasAgency> <https://uoc.edu/tourismOntology#TravelAgency2> .
+<https://uoc.edu/tourismOntology#Barcelona> <https://uoc.edu/tourismOntology#hasAttraction> <https://uoc.edu/tourismOntology#Attraction20> .
+<https://uoc.edu/tourismOntology#Barcelona> <https://uoc.edu/tourismOntology#hasEvent> <https://uoc.edu/tourismOntology#Event65> .
+<https://uoc.edu/tourismOntology#Barcelona> <https://uoc.edu/tourismOntology#hasHotel> <https://uoc.edu/tourismOntology#Hotel9> .
+<https://uoc.edu/tourismOntology#Barcelona> <https://uoc.edu/tourismOntology#hasLocation> <https://uoc.edu/tourismOntology#Location2> .
+<https://uoc.edu/tourismOntology#Barcelona> <https://uoc.edu/tourismOntology#hasRestaurant> <https://uoc.edu/tourismOntology#Restaurant50> .
+<https://uoc.edu/tourismOntology#Barcelona> <https://uoc.edu/tourismOntology#hasTransport> <https://uoc.edu/tourismOntology#Transport9> .
+<https://uoc.edu/tourismOntology#Barcelona> <https://uoc.edu/tourismOntology#cityID> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Barcelona> <https://uoc.edu/tourismOntology#name> "Barcelona" .
+<https://uoc.edu/tourismOntology#Barcelona> <http://www.w3.org/2000/01/rdf-schema#comment> "Barcelona" .
+<https://uoc.edu/tourismOntology#Barcelona> <http://www.w3.org/2000/01/rdf-schema#label> "Barcelona" .
+# 
+# https://uoc.edu/tourismOntology#BeachAttraction
+<https://uoc.edu/tourismOntology#BeachAttraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#BeachAttraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#AttractionType> .
+<https://uoc.edu/tourismOntology#BeachAttraction> <http://www.w3.org/2000/01/rdf-schema#comment> "BeachAttraction" .
+<https://uoc.edu/tourismOntology#BeachAttraction> <http://www.w3.org/2000/01/rdf-schema#label> "BeachAttraction" .
+# 
+# https://uoc.edu/tourismOntology#BeachHotel
+<https://uoc.edu/tourismOntology#BeachHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#BeachHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#HotelType> .
+<https://uoc.edu/tourismOntology#BeachHotel> <http://www.w3.org/2000/01/rdf-schema#comment> "BeachHotel" .
+<https://uoc.edu/tourismOntology#BeachHotel> <http://www.w3.org/2000/01/rdf-schema#label> "BeachHotel" .
+# 
+# https://uoc.edu/tourismOntology#Bicicle
+<https://uoc.edu/tourismOntology#Bicicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Bicicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#TransportType> .
+<https://uoc.edu/tourismOntology#Bicicle> <http://www.w3.org/2000/01/rdf-schema#comment> "Bicicle" .
+<https://uoc.edu/tourismOntology#Bicicle> <http://www.w3.org/2000/01/rdf-schema#label> "Bicicle" .
+# 
+# https://uoc.edu/tourismOntology#Bus
+<https://uoc.edu/tourismOntology#Bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#TransportType> .
+<https://uoc.edu/tourismOntology#Bus> <http://www.w3.org/2000/01/rdf-schema#comment> "Bus" .
+<https://uoc.edu/tourismOntology#Bus> <http://www.w3.org/2000/01/rdf-schema#label> "Bus" .
+# 
+# https://uoc.edu/tourismOntology#Business
+<https://uoc.edu/tourismOntology#Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#HotelType> .
+<https://uoc.edu/tourismOntology#Business> <http://www.w3.org/2000/01/rdf-schema#comment> "Business" .
+<https://uoc.edu/tourismOntology#Business> <http://www.w3.org/2000/01/rdf-schema#label> "Business" .
+# 
+# https://uoc.edu/tourismOntology#CompanyMetroBarcelona
+<https://uoc.edu/tourismOntology#CompanyMetroBarcelona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#CompanyMetroBarcelona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#Company> .
+<https://uoc.edu/tourismOntology#CompanyMetroBarcelona> <https://uoc.edu/tourismOntology#name> "Metro de Barcelona" .
+<https://uoc.edu/tourismOntology#CompanyMetroBarcelona> <http://www.w3.org/2000/01/rdf-schema#comment> "CompanyMetroBarcelona" .
+<https://uoc.edu/tourismOntology#CompanyMetroBarcelona> <http://www.w3.org/2000/01/rdf-schema#label> "CompanyMetroBarcelona" .
+# 
+# https://uoc.edu/tourismOntology#CulturalAttraction
+<https://uoc.edu/tourismOntology#CulturalAttraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#CulturalAttraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#AttractionType> .
+<https://uoc.edu/tourismOntology#CulturalAttraction> <http://www.w3.org/2000/01/rdf-schema#comment> "CulturalAttraction" .
+<https://uoc.edu/tourismOntology#CulturalAttraction> <http://www.w3.org/2000/01/rdf-schema#label> "CulturalAttraction" .
+# 
+# https://uoc.edu/tourismOntology#CulturalEvent
+<https://uoc.edu/tourismOntology#CulturalEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#CulturalEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#EventType> .
+<https://uoc.edu/tourismOntology#CulturalEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "CulturalEvent" .
+<https://uoc.edu/tourismOntology#CulturalEvent> <http://www.w3.org/2000/01/rdf-schema#label> "CulturalEvent" .
+# 
+# https://uoc.edu/tourismOntology#Event52
+<https://uoc.edu/tourismOntology#Event52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Event52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#Event> .
+<https://uoc.edu/tourismOntology#Event52> <https://uoc.edu/tourismOntology#hasEventType> <https://uoc.edu/tourismOntology#CulturalEvent> .
+<https://uoc.edu/tourismOntology#Event52> <https://uoc.edu/tourismOntology#eventID> "52"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Event52> <https://uoc.edu/tourismOntology#hasDate> "2024-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://uoc.edu/tourismOntology#Event52> <https://uoc.edu/tourismOntology#name> "Congreso Toledo" .
+<https://uoc.edu/tourismOntology#Event52> <http://www.w3.org/2000/01/rdf-schema#comment> "Event52" .
+<https://uoc.edu/tourismOntology#Event52> <http://www.w3.org/2000/01/rdf-schema#label> "Event52" .
+# 
+# https://uoc.edu/tourismOntology#Event65
+<https://uoc.edu/tourismOntology#Event65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Event65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#Event> .
+<https://uoc.edu/tourismOntology#Event65> <https://uoc.edu/tourismOntology#hasEventType> <https://uoc.edu/tourismOntology#Gastronomic> .
+<https://uoc.edu/tourismOntology#Event65> <https://uoc.edu/tourismOntology#eventID> "65"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Event65> <https://uoc.edu/tourismOntology#hasDate> "2024-03-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://uoc.edu/tourismOntology#Event65> <https://uoc.edu/tourismOntology#name> "Carnaval Barcelona" .
+<https://uoc.edu/tourismOntology#Event65> <http://www.w3.org/2000/01/rdf-schema#comment> "Event65" .
+<https://uoc.edu/tourismOntology#Event65> <http://www.w3.org/2000/01/rdf-schema#label> "Event65" .
+# 
+# https://uoc.edu/tourismOntology#Gastronomic
+<https://uoc.edu/tourismOntology#Gastronomic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Gastronomic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#EventType> .
+<https://uoc.edu/tourismOntology#Gastronomic> <http://www.w3.org/2000/01/rdf-schema#comment> "Gastronomic" .
+<https://uoc.edu/tourismOntology#Gastronomic> <http://www.w3.org/2000/01/rdf-schema#label> "Gastronomic" .
+# 
+# https://uoc.edu/tourismOntology#Hotel23
+<https://uoc.edu/tourismOntology#Hotel23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Hotel23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#Hotel> .
+<https://uoc.edu/tourismOntology#Hotel23> <https://uoc.edu/tourismOntology#hasHotelType> <https://uoc.edu/tourismOntology#Touristic> .
+<https://uoc.edu/tourismOntology#Hotel23> <https://uoc.edu/tourismOntology#hasPriceNight> "99"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Hotel23> <https://uoc.edu/tourismOntology#hotelID> "23"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Hotel23> <https://uoc.edu/tourismOntology#name> "Hotel Vista Toledo" .
+<https://uoc.edu/tourismOntology#Hotel23> <https://uoc.edu/tourismOntology#rating> "4.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://uoc.edu/tourismOntology#Hotel23> <https://uoc.edu/tourismOntology#stars> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Hotel23> <http://www.w3.org/2000/01/rdf-schema#comment> "Hotel23" .
+<https://uoc.edu/tourismOntology#Hotel23> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel23" .
+# 
+# https://uoc.edu/tourismOntology#Hotel9
+<https://uoc.edu/tourismOntology#Hotel9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Hotel9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#Hotel> .
+<https://uoc.edu/tourismOntology#Hotel9> <https://uoc.edu/tourismOntology#hasHotelType> <https://uoc.edu/tourismOntology#BeachHotel> .
+<https://uoc.edu/tourismOntology#Hotel9> <https://uoc.edu/tourismOntology#hasPriceNight> "252"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Hotel9> <https://uoc.edu/tourismOntology#hotelID> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Hotel9> <https://uoc.edu/tourismOntology#name> "Royal Barcelona" .
+<https://uoc.edu/tourismOntology#Hotel9> <https://uoc.edu/tourismOntology#rating> "4.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://uoc.edu/tourismOntology#Hotel9> <https://uoc.edu/tourismOntology#stars> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Hotel9> <http://www.w3.org/2000/01/rdf-schema#comment> "Hotel9" .
+<https://uoc.edu/tourismOntology#Hotel9> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel9" .
+# 
+# https://uoc.edu/tourismOntology#Italian
+<https://uoc.edu/tourismOntology#Italian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Italian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#FoodType> .
+<https://uoc.edu/tourismOntology#Italian> <http://www.w3.org/2000/01/rdf-schema#comment> "Italian" .
+<https://uoc.edu/tourismOntology#Italian> <http://www.w3.org/2000/01/rdf-schema#label> "Italian" .
+# 
+# https://uoc.edu/tourismOntology#Japanese
+<https://uoc.edu/tourismOntology#Japanese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Japanese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#FoodType> .
+<https://uoc.edu/tourismOntology#Japanese> <http://www.w3.org/2000/01/rdf-schema#comment> "Japanese" .
+<https://uoc.edu/tourismOntology#Japanese> <http://www.w3.org/2000/01/rdf-schema#label> "Japanese" .
+# 
+# https://uoc.edu/tourismOntology#Location2
+<https://uoc.edu/tourismOntology#Location2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Location2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#Location> .
+<https://uoc.edu/tourismOntology#Location2> <https://uoc.edu/tourismOntology#latitude> "41.3874"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://uoc.edu/tourismOntology#Location2> <https://uoc.edu/tourismOntology#longitude> "2.1686"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://uoc.edu/tourismOntology#Location2> <http://www.w3.org/2000/01/rdf-schema#comment> "Location2" .
+<https://uoc.edu/tourismOntology#Location2> <http://www.w3.org/2000/01/rdf-schema#label> "Location2" .
+# 
+# https://uoc.edu/tourismOntology#Luxury
+<https://uoc.edu/tourismOntology#Luxury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Luxury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#HotelType> .
+<https://uoc.edu/tourismOntology#Luxury> <http://www.w3.org/2000/01/rdf-schema#comment> "Luxury" .
+<https://uoc.edu/tourismOntology#Luxury> <http://www.w3.org/2000/01/rdf-schema#label> "Luxury" .
+# 
+# https://uoc.edu/tourismOntology#Mediterranean
+<https://uoc.edu/tourismOntology#Mediterranean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Mediterranean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#FoodType> .
+<https://uoc.edu/tourismOntology#Mediterranean> <http://www.w3.org/2000/01/rdf-schema#comment> "Mediterranean" .
+<https://uoc.edu/tourismOntology#Mediterranean> <http://www.w3.org/2000/01/rdf-schema#label> "Mediterranean" .
+# 
+# https://uoc.edu/tourismOntology#Mexican
+<https://uoc.edu/tourismOntology#Mexican> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Mexican> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#FoodType> .
+<https://uoc.edu/tourismOntology#Mexican> <http://www.w3.org/2000/01/rdf-schema#comment> "Mexican" .
+<https://uoc.edu/tourismOntology#Mexican> <http://www.w3.org/2000/01/rdf-schema#label> "Mexican" .
+# 
+# https://uoc.edu/tourismOntology#Monument
+<https://uoc.edu/tourismOntology#Monument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Monument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#AttractionType> .
+<https://uoc.edu/tourismOntology#Monument> <http://www.w3.org/2000/01/rdf-schema#comment> "Monument" .
+<https://uoc.edu/tourismOntology#Monument> <http://www.w3.org/2000/01/rdf-schema#label> "Monument" .
+# 
+# https://uoc.edu/tourismOntology#Museum
+<https://uoc.edu/tourismOntology#Museum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Museum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#AttractionType> .
+<https://uoc.edu/tourismOntology#Museum> <http://www.w3.org/2000/01/rdf-schema#comment> "Museum" .
+<https://uoc.edu/tourismOntology#Museum> <http://www.w3.org/2000/01/rdf-schema#label> "Museum" .
+# 
+# https://uoc.edu/tourismOntology#Music
+<https://uoc.edu/tourismOntology#Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#EventType> .
+<https://uoc.edu/tourismOntology#Music> <http://www.w3.org/2000/01/rdf-schema#comment> "Music" .
+<https://uoc.edu/tourismOntology#Music> <http://www.w3.org/2000/01/rdf-schema#label> "Music" .
+# 
+# https://uoc.edu/tourismOntology#Park
+<https://uoc.edu/tourismOntology#Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#AttractionType> .
+<https://uoc.edu/tourismOntology#Park> <http://www.w3.org/2000/01/rdf-schema#comment> "Park" .
+<https://uoc.edu/tourismOntology#Park> <http://www.w3.org/2000/01/rdf-schema#label> "Park" .
+# 
+# https://uoc.edu/tourismOntology#Restaurant50
+<https://uoc.edu/tourismOntology#Restaurant50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Restaurant50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#Restaurant> .
+<https://uoc.edu/tourismOntology#Restaurant50> <https://uoc.edu/tourismOntology#hasFoodType> <https://uoc.edu/tourismOntology#Andalusian> .
+<https://uoc.edu/tourismOntology#Restaurant50> <https://uoc.edu/tourismOntology#averagePrice> "65"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Restaurant50> <https://uoc.edu/tourismOntology#name> "Delicia Barcelona" .
+<https://uoc.edu/tourismOntology#Restaurant50> <https://uoc.edu/tourismOntology#rating> "4.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://uoc.edu/tourismOntology#Restaurant50> <https://uoc.edu/tourismOntology#restaurantID> "50"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Restaurant50> <http://www.w3.org/2000/01/rdf-schema#comment> "Restaurant50" .
+<https://uoc.edu/tourismOntology#Restaurant50> <http://www.w3.org/2000/01/rdf-schema#label> "Restaurant50" .
+# 
+# https://uoc.edu/tourismOntology#Rural
+<https://uoc.edu/tourismOntology#Rural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Rural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#HotelType> .
+<https://uoc.edu/tourismOntology#Rural> <http://www.w3.org/2000/01/rdf-schema#comment> "Rural" .
+<https://uoc.edu/tourismOntology#Rural> <http://www.w3.org/2000/01/rdf-schema#label> "Rural" .
+# 
+# https://uoc.edu/tourismOntology#Sports
+<https://uoc.edu/tourismOntology#Sports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Sports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#EventType> .
+<https://uoc.edu/tourismOntology#Sports> <http://www.w3.org/2000/01/rdf-schema#comment> "Sports" .
+<https://uoc.edu/tourismOntology#Sports> <http://www.w3.org/2000/01/rdf-schema#label> "Sports" .
+# 
+# https://uoc.edu/tourismOntology#Subway
+<https://uoc.edu/tourismOntology#Subway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Subway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#TransportType> .
+<https://uoc.edu/tourismOntology#Subway> <http://www.w3.org/2000/01/rdf-schema#comment> "Subway" .
+<https://uoc.edu/tourismOntology#Subway> <http://www.w3.org/2000/01/rdf-schema#label> "Subway" .
+# 
+# https://uoc.edu/tourismOntology#Taxi
+<https://uoc.edu/tourismOntology#Taxi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Taxi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#TransportType> .
+<https://uoc.edu/tourismOntology#Taxi> <http://www.w3.org/2000/01/rdf-schema#comment> "Taxi" .
+<https://uoc.edu/tourismOntology#Taxi> <http://www.w3.org/2000/01/rdf-schema#label> "Taxi" .
+# 
+# https://uoc.edu/tourismOntology#Technological
+<https://uoc.edu/tourismOntology#Technological> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Technological> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#EventType> .
+<https://uoc.edu/tourismOntology#Technological> <http://www.w3.org/2000/01/rdf-schema#comment> "Technological" .
+<https://uoc.edu/tourismOntology#Technological> <http://www.w3.org/2000/01/rdf-schema#label> "Technological" .
+# 
+# https://uoc.edu/tourismOntology#Touristic
+<https://uoc.edu/tourismOntology#Touristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Touristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#HotelType> .
+<https://uoc.edu/tourismOntology#Touristic> <http://www.w3.org/2000/01/rdf-schema#comment> "Touristic" .
+<https://uoc.edu/tourismOntology#Touristic> <http://www.w3.org/2000/01/rdf-schema#label> "Touristic" .
+# 
+# https://uoc.edu/tourismOntology#Tram
+<https://uoc.edu/tourismOntology#Tram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Tram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#TransportType> .
+<https://uoc.edu/tourismOntology#Tram> <http://www.w3.org/2000/01/rdf-schema#comment> "Tram" .
+<https://uoc.edu/tourismOntology#Tram> <http://www.w3.org/2000/01/rdf-schema#label> "Tram" .
+# 
+# https://uoc.edu/tourismOntology#Transport9
+<https://uoc.edu/tourismOntology#Transport9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#Transport9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#Transport> .
+<https://uoc.edu/tourismOntology#Transport9> <https://uoc.edu/tourismOntology#hasCompany> <https://uoc.edu/tourismOntology#CompanyMetroBarcelona> .
+<https://uoc.edu/tourismOntology#Transport9> <https://uoc.edu/tourismOntology#hasTransportType> <https://uoc.edu/tourismOntology#Bus> .
+<https://uoc.edu/tourismOntology#Transport9> <https://uoc.edu/tourismOntology#averageCost> "8.72"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://uoc.edu/tourismOntology#Transport9> <https://uoc.edu/tourismOntology#transportID> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#Transport9> <http://www.w3.org/2000/01/rdf-schema#comment> "Transport9" .
+<https://uoc.edu/tourismOntology#Transport9> <http://www.w3.org/2000/01/rdf-schema#label> "Transport9" .
+# 
+# https://uoc.edu/tourismOntology#TravelAgency1
+<https://uoc.edu/tourismOntology#TravelAgency1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#TravelAgency1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#TravelAgency> .
+<https://uoc.edu/tourismOntology#TravelAgency1> <https://uoc.edu/tourismOntology#agencyID> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#TravelAgency1> <https://uoc.edu/tourismOntology#name> "Agencia de Viajes de Toledo" .
+<https://uoc.edu/tourismOntology#TravelAgency1> <https://uoc.edu/tourismOntology#telephone> "670 760 555" .
+<https://uoc.edu/tourismOntology#TravelAgency1> <http://www.w3.org/2000/01/rdf-schema#comment> "TravelAgency1" .
+<https://uoc.edu/tourismOntology#TravelAgency1> <http://www.w3.org/2000/01/rdf-schema#label> "TravelAgency1" .
+# 
+# https://uoc.edu/tourismOntology#TravelAgency2
+<https://uoc.edu/tourismOntology#TravelAgency2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://uoc.edu/tourismOntology#TravelAgency2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://uoc.edu/tourismOntology#TravelAgency> .
+<https://uoc.edu/tourismOntology#TravelAgency2> <https://uoc.edu/tourismOntology#agencyID> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://uoc.edu/tourismOntology#TravelAgency2> <https://uoc.edu/tourismOntology#name> "Agencia de viajes de Barcelona" .
+<https://uoc.edu/tourismOntology#TravelAgency2> <https://uoc.edu/tourismOntology#telephone> "345 678 987" .
+<https://uoc.edu/tourismOntology#TravelAgency2> <http://www.w3.org/2000/01/rdf-schema#comment> "TravelAgency2" .
+<https://uoc.edu/tourismOntology#TravelAgency2> <http://www.w3.org/2000/01/rdf-schema#label> "TravelAgency2" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.w3.org/2002/07/owl#topDataProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Root data property" .
+<http://www.w3.org/2002/07/owl#topDataProperty> <http://www.w3.org/2000/01/rdf-schema#label> "topDataProperty" .
+# 
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "root object property" .
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/2000/01/rdf-schema#label> "topObjectProperty" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<https://uoc.edu/tourismOntology#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://uoc.edu/tourismOntology#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://uoc.edu/tourismOntology#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://uoc.edu/tourismOntology#h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://uoc.edu/tourismOntology#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://uoc.edu/tourismOntology#p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid29 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid29 <http://www.w3.org/2000/01/rdf-schema#comment> "Si una ciudad tiene algún evento cultural y alguna atracción cultural entonces es una ciudad cultural (S2)" .
+_:genid29 <http://www.w3.org/2000/01/rdf-schema#label> "S2" .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid29 <http://www.w3.org/2003/11/swrl#body> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#CulturalAttraction> .
+_:genid31 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#a> .
+_:genid31 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasAttractionType> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#a> .
+_:genid33 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid33 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasAttraction> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid35 .
+_:genid35 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#CulturalEvent> .
+_:genid35 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#e> .
+_:genid35 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasEventType> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid37 .
+_:genid37 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#e> .
+_:genid37 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid37 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasEvent> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
+_:genid39 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid39 <http://www.w3.org/2003/11/swrl#classPredicate> <https://uoc.edu/tourismOntology#City> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid29 <http://www.w3.org/2003/11/swrl#head> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid41 .
+_:genid41 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid41 <http://www.w3.org/2003/11/swrl#classPredicate> <https://uoc.edu/tourismOntology#CulturalCity> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid42 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid42 <http://www.w3.org/2000/01/rdf-schema#comment> "Se han añadido las siguientes reglas. Si una ciudad tiene algún hotel de playa y alguna atracción de playa entonces es una ciudad de playa (S1)" .
+_:genid42 <http://www.w3.org/2000/01/rdf-schema#label> "S1" .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid42 <http://www.w3.org/2003/11/swrl#body> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
+_:genid44 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#BeachAttraction> .
+_:genid44 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#a> .
+_:genid44 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasAttractionType> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid46 .
+_:genid46 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#a> .
+_:genid46 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid46 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasAttraction> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48 .
+_:genid48 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#BeachHotel> .
+_:genid48 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#h> .
+_:genid48 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasHotelType> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid50 .
+_:genid50 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#h> .
+_:genid50 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid50 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasHotel> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid52 .
+_:genid52 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid52 <http://www.w3.org/2003/11/swrl#classPredicate> <https://uoc.edu/tourismOntology#City> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid42 <http://www.w3.org/2003/11/swrl#head> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid54 .
+_:genid54 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid54 <http://www.w3.org/2003/11/swrl#classPredicate> <https://uoc.edu/tourismOntology#BeachCity> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid55 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid55 <http://www.w3.org/2000/01/rdf-schema#comment> "Si alguna ciudad tiene algún restaurante con comida andaluza o mediterránea, y tiene eventos gastronómicos, entonces es considerada ciudad gastronómica (S3 y S4)" .
+_:genid55 <http://www.w3.org/2000/01/rdf-schema#label> "S4" .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid55 <http://www.w3.org/2003/11/swrl#body> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid57 .
+_:genid57 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#Gastronomic> .
+_:genid57 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#e> .
+_:genid57 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasEventType> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid59 .
+_:genid59 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#e> .
+_:genid59 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid59 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasEvent> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid61 .
+_:genid61 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#Andalusian> .
+_:genid61 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#p> .
+_:genid61 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasFoodType> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid63 .
+_:genid63 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#r> .
+_:genid63 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid63 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasRestaurant> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid65 .
+_:genid65 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid65 <http://www.w3.org/2003/11/swrl#classPredicate> <https://uoc.edu/tourismOntology#City> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid55 <http://www.w3.org/2003/11/swrl#head> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid67 .
+_:genid67 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid67 <http://www.w3.org/2003/11/swrl#classPredicate> <https://uoc.edu/tourismOntology#GastronomicCity> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid68 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid68 <http://www.w3.org/2000/01/rdf-schema#comment> "Si alguna ciudad tiene algún restaurante con comida andaluza o mediterránea, y tiene eventos gastronómicos, entonces es considerada ciudad gastronómica (S3 y S4)" .
+_:genid68 <http://www.w3.org/2000/01/rdf-schema#label> "S3" .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid68 <http://www.w3.org/2003/11/swrl#body> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid70 .
+_:genid70 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#Gastronomic> .
+_:genid70 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#e> .
+_:genid70 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasEventType> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid72 .
+_:genid72 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#e> .
+_:genid72 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid72 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasEvent> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid74 .
+_:genid74 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#Mediterranean> .
+_:genid74 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#p> .
+_:genid74 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasFoodType> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid76 .
+_:genid76 <http://www.w3.org/2003/11/swrl#argument2> <https://uoc.edu/tourismOntology#r> .
+_:genid76 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid76 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://uoc.edu/tourismOntology#hasRestaurant> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid78 .
+_:genid78 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid78 <http://www.w3.org/2003/11/swrl#classPredicate> <https://uoc.edu/tourismOntology#City> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid68 <http://www.w3.org/2003/11/swrl#head> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid80 .
+_:genid80 <http://www.w3.org/2003/11/swrl#argument1> <https://uoc.edu/tourismOntology#c> .
+_:genid80 <http://www.w3.org/2003/11/swrl#classPredicate> <https://uoc.edu/tourismOntology#GastronomicCity> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
